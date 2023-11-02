@@ -768,7 +768,7 @@ ch1=ch;
 if (ch1=='Y' ||ch=='y')
     {
     system("cls");
-    printf("\n Ohk %s Be ready to Make your Brain sprint to its Max capacity");
+    printf("\n Ohk Be ready to Make your Brain sprint to its Max capacity");
     }
 else
    endgame();
