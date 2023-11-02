@@ -33,7 +33,6 @@ void l11();
 void l12();
 void l13();
 void l14();
-void l15();
 void l21();
 void l22();
 void l23();
@@ -44,16 +43,6 @@ void l32();
 void l33();
 void l34();
 void l35();
-void l41();
-void l42();
-void l43();
-void l44();
-void l45();
-void l51();
-void l52();
-void l53();
-void l54();
-void l55();
 void gamename();
 void congratulations();
 void endgame();
@@ -73,12 +62,6 @@ case 2:
      break;
 case 3:
     stage3();
-    break;
-case 4:
-    stage4();
-    break;
-case 5:
-    stage5();
     break;
 }
 }
@@ -132,14 +115,6 @@ else if (h%3==0)
 {
     case1=2;
 }
-else if(h%5==0)
-{
-    case1=3;
-}
-else if(h%7==0)
-{
-    case1 =4;
-}
 else
 case1=5;
 
@@ -152,12 +127,6 @@ l21();
 }
 void stage3(){
 l31();
-}
-void stage4(){
-l41();
-}
-void stage5(){
-l51();
 }
 void l11(){
     system("cls");
@@ -558,7 +527,7 @@ label1:
     }
 
 }
-void l15(){
+void l14(){
 system("cls");
   int live=6;
     char ch='p',ch1='P',ch2='h',ch3='H',ch4='s',ch5='S',ch6='y',ch7='Y',ch8='n',ch9='N',ch10='s',ch11='S';
@@ -771,193 +740,7 @@ else{
          goto label1;}
     }
 }
-void l14(){
-system("cls");
-  int live=7;
-    char ch='t',ch1='T',ch2='c',ch3='C',ch4='o',ch5='O',ch6='n',ch7='N',ch8='i',ch9='I',ch10='t',ch11='T';
-printf("\n Welcome to the level 2");
-label1:
-    printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,             score=%d         your life =%d       |",score,live);
-    printf("\n | Level 2 starts                                         |");
-    printf("\n |                                                        |");
-    printf("\n | Q2.                                                    |");
-    printf("\n |     _ E L E _ _ M U _ _ C _ I O N                       |");
-    printf("\n |                                                        |");
-    printf("\n |                                                        |");
-    printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
-    scanf(" %c",&ch);
-    ch1=ch;
-    if(ch=='t'|| ch1=='T')
-    {
-        label2:
-    system("cls");
-    score=score+5;
-     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
-    printf("\n |                                                        |");
-    printf("\n | Q2.                                                    |");
-    printf("\n |    T E L E _ _ M U _ _ C _ I O N                         |");
-    printf("\n |                                                        |");
-    printf("\n |                                                        |");
-    printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
-    scanf(" %c",&ch2);
-    ch3=ch2;
-    if(ch2=='c'||ch3=='C')
-    {
-        label3:
-        system("cls");
-    score=score+10;
-     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
-    printf("\n |                                                        |");
-    printf("\n | Q2.                                                    |");
-    printf("\n |     T E L E C _ M U _ _ C _ I O N                        |");
-    printf("\n |                                                        |");
-    printf("\n |                                                        |");
-    printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
-    scanf(" %c",&ch4);
-    ch5=ch4;
-    if(ch4=='o'||ch5=='O')
-    {
-        label4:
-        system("cls");
-    score=score+15;
-     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
-    printf("\n |                                                        |");
-    printf("\n | Q1.                                                    |");
-    printf("\n |      T E L E C O M U _ _ C _ I O N                 |");
-    printf("\n |                                                        |");
-    printf("\n |                                                        |");
-    printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
-     scanf(" %c",&ch6);
-    ch7=ch6;
-    if(ch6=='n'||ch7=='N')
-        {
-            label5:
-        system("cls");
-    score=score+20;
-     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
-    printf("\n |                                                        |");
-    printf("\n | Q1.                                                    |");
-    printf("\n |     T E L E C O M U N _ C _ I O N                        |");
-    printf("\n |                                                        |");
-    printf("\n |                                                        |");
-    printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
-    scanf(" %c",&ch8);
-    ch9=ch8;
-    if(ch8=='i'||ch9=='I')
-    {
-            label6:
-        system("cls");
-    score=score+25;
-     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
-    printf("\n |                                                        |");
-    printf("\n | Q1.                                                    |");
-    printf("\n |     T E L E C O M U N I C _ I O N                        |");
-    printf("\n |                                                        |");
-    printf("\n |                                                        |");
-    printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
-    scanf(" %c",&ch10);
-    ch11=ch10;
-    if(ch10=='a'||ch11=='A')
-    {
-        system("cls");
-    score=score+30;
-     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
-    printf("\n |                                                        |");
-    printf("\n | Q1.                                                    |");
-    printf("\n |     T E L E C O M U N I C A I O N                        |");
-    printf("\n |                                                        |");
-    printf("\n |                                                        |");
-    printf("\n ----------------------------------------------------------");
-    congratulations();
-    printf("\n Want to play the next level Y/n");
-    scanf(" %c",&choice);
-    if (choice == 'y'|| choice =='Y')
-            l15();
-    else
-        endgame();
-    }
 
-        else{
-         system("cls");
-        live--;
-        if(live==0)
-            printf("\n YOU LOSE");
-        else
-            {score=score-8;
-          goto label6;}
-    }
-        }
-else{
-         system("cls");
-        live--;
-        if(live==0)
-            printf("\n YOU LOSE");
-        else
-            {score=score-8;
-          goto label5;}
-    }
-    }
-     else{
-         system("cls");
-        live--;
-        if(live==0)
-            printf("\n YOU LOSE");
-        else
-            {score=score-8;
-          goto label4;}
-    }
-    }
-    else{
-         system("cls");
-        live--;
-        if(live==0)
-            printf("\n YOU LOSE");
-        else
-            {score=score-6;
-          goto label3;}
-    }
-    }
-     else
-        {
-        system("cls");
-        live--;
-        if(live==0)
-            printf("\n YOU LOSE");
-        else
-            {score=score-4;
-            goto label2;}
-    }
-    }
-    else
-    {
-        system("cls");
-        live--;
-        if(live==0)
-            printf("\n YOU LOSE");
-        else
-            {score=score-2;
-         goto label1;}
-    }
-}
 void name1(){
     //designed by pranay
 char name[10];
@@ -1098,35 +881,6 @@ printf("\n work in progress");
 void l35(){
 printf("\n work in progress");
 }
-void l41(){
-}
-void l42(){
-printf("\n work in progress");
-}
-void l43(){
-printf("\n work in progress");
-}
-void l44(){
-printf("\n work in progress");
-}
-void l45(){
-printf("\n work in progress");
-}
-void l51(){
-
-}
-void l52(){
-printf("\n work in progress");
-}
-void l53(){
-printf("\n work in progress");
-}
-void l54(){
-printf("\n work in progress");
-}
-void l55(){
-printf("\n work in progress");
-}
 void levels2(){
   int level;
 printf("                                                     %d",score);
@@ -1249,207 +1003,85 @@ case 5:
     break;
 }
 }
-void levels4(){
-  int level;
-printf("                                                     %d",score);
-printf("\n Level 01 \t Level 02 \t Level 03 \n");
-printf("\n      Level 05  \t Level 04 \n");
-printf("\n Enter the Number you want to play");
-printf("(Minimum scaore require to start a level)");
-scanf("%d",&level);
-system("clr");
-switch(level){
-case 1:
-    l41();
-    break;
-case 2:
-    if(score>25)
-    l42();
-    else
-        {system("cls");
-        printf("\n You Are not Eligible for this level play any smaller level again to increase your score");
-         printf("\n Your score is %d and required score is 25",score);
-
-        levels4();
-        }
-    break;
-case 3:
-    if(score>50)
-    l43();
-    else
-        {system("cls");
-        printf("\n You Are not Eligible for this level play any smaller level again to increase your score");
-         printf("\n Your score is %d and required score is 50",score);
-
-        levels4();}
-    break;
-case 4:
-     if(score>75)
-    l44();
-    else
-        {
-            system("cls");
-            printf("\n You Are not Eligible for this level play any smaller level again to increase your score");
-         printf("\n Your score is %d and required score is 75",score);
-
-        levels4();}
-    break;
-case 5:
-    if(score>100)
-    l45();
-    else
-        {
-            system("cls");
-            printf("\n You Are not Eligible for this level play any smaller level again to increase your score");
-         printf("\n Your score is %d and required score is 100",score);
-
-        levels4();}
-    break;
-
-    printf("\n Enter a valid Number");
-    break;
-}
-}
-void levels5(){
-  int level;
-printf("                                                     %d",score);
-printf("\n Level 01 \t Level 02 \t Level 03 \n");
-printf("\n      Level 05  \t Level 04 \n");
-printf("\n Enter the Number you want to play");
-printf("(Minimum scaore require to start a level)");
-scanf("%d",&level);
-system("clr");
-switch(level){
-case 1:
-    l51();
-    break;
-case 2:
-    if(score>25)
-    l52();
-    else
-        {system("cls");
-        printf("\n You Are not Eligible for this level play any smaller level again to increase your score");
-         printf("\n Your score is %d and required score is 25",score);
-
-        levels5();
-        }
-    break;
-case 3:
-    if(score>50)
-    l53();
-    else
-        {system("cls");
-        printf("\n You Are not Eligible for this level play any smaller level again to increase your score");
-         printf("\n Your score is %d and required score is 50",score);
-
-        levels5();}
-    break;
-case 4:
-     if(score>75)
-    l54();
-    else
-        {
-            system("cls");
-            printf("\n You Are not Eligible for this level play any smaller level again to increase your score");
-         printf("\n Your score is %d and required score is 75",score);
-
-        levels5();}
-    break;
-case 5:
-    if(score>100)
-    l55();
-    else
-        {
-            system("cls");
-            printf("\n You Are not Eligible for this level play any smaller level again to increase your score");
-         printf("\n Your score is %d and required score is 100",score);
-
-        levels5();}
-    break;
-
-    printf("\n Enter a valid Number");
-    break;
-}
-}
 void gamename(){
     system("cls");
-printf("\nBBB   RRR   AAAA  IIIII  NN  N  ");
-printf("\nB  B  R  R  A  A    I    N N N  ");
-printf("\nB  B  R  R  A  A    I    N N N  ");
-printf("\nBBB   RRR   AAAA    I    N N N  ");
-printf("\nB  B  RR    A  A    I    N N N  ");
-printf("\nB  B  R R   A  A    I    N N N  ");
-printf("\nBBB   R  R  A  A  IIIII  N  NN  ");
+printf("\nBBBB    RRRR    AAAAA   IIIIII   NN    N  ");
+printf("\nB   B   R   R   A   A      I     N N   N  ");
+printf("\nB   B   R   R   A   A      I     N  N  N  ");
+printf("\nBBBB    RRRR    AAAAA      I     N  N  N  ");
+printf("\nB   B   RR      A   A      I     N  N  N  ");
+printf("\nB   B   R R     A   A      I     N   N N  ");
+printf("\nBBBB    R  R    A   A   IIIIII   N    NN  ");
 printf("\n");
 printf("\n");
-printf("\n             TTTTT  H  H  RRR   U  U  SSSS  TTTTT  EEEE  RRR  ");
-printf("\n               T    H  H  R  R  U  U  S       T    EEEE  R  R ");
-printf("\n               T    H  H  R  R  U  U  S       T    E     R  R ");
-printf("\n               T    HHHH  RRR   U  U  SSSS    T    EEEE  RRR  ");
-printf("\n               T    H  H  RR    U  U     S    T    E     RR   ");
-printf("\n               T    H  H  R R   U  U     S    T    EEEE  R R  ");
-printf("\n               T    H  H  R  R  UUUU  SSSS    T    EEEE  R  R ");
-sleep(2);
+printf("\n             TTTTTT   H   H   RRRR    U   U   SSSSS   TTTTTT   EEEE   RRRR  ");
+printf("\n                T     H   H   R   R   U   U   S         T      EEEE   R   R ");
+printf("\n                T     H   H   R   R   U   U   S         T      E      R   R ");
+printf("\n                T     HHHHH   RRRR    U   U   SSSSS     T      EEEE   RRRR  ");
+printf("\n                T     H   H   RR      U   U       S     T      E      RR    ");
+printf("\n                T     H   H   R R     U   U       S     T      EEEE   R R   ");
+printf("\n                T     H   H   R  R    UUUUU   SSSSS     T      EEEE   R  R  ");
+sleep(5);
 }
 void congratulations(){
     system("cls");
-printf("\n/^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|");
-printf("\n| CCCC   OO   NN  N  GGGG  RRR   AAAA  TTTTT  U  U  L     AAAA  TTTTT  U  U  L     AAAA  TTTTT  IIIII   OO   NN  N SSSS  |");
-printf("\n| C     O  O  N N N  G     R  R  A  A    T    U  U  L     A  A    T    U  U  L     A  A    T      I    O  O  N N N S     |");
-printf("\n| C     O  O  N N N  G     R  R  A  A    T    U  U  L     A  A    T    U  U  L     A  A    T      I    O  O  N N N S     |");
-printf("\n| C     O  O  N N N  G GG  RRR   AAAA    T    U  U  L     AAAA    T    U  U  L     AAAA    T      I    O  O  N N N SSSS  |");
-printf("\n| C     O  O  N N N  G  G  RR    A  A    T    U  U  L     A  A    T    U  U  L     A  A    T      I    O  O  N N N    S  |");
-printf("\n| C     O  O  N N N  G  G  R R   A  A    T    U  U  L     A  A    T    U  U  L     A  A    T      I    O  O  N N N    S  |");
-printf("\n|  CCC   OO   N  NN   GG   R  R  A  A    T     UU   LLLL  A  A    T     UU   LLLL  A  A    T    IIIII   OO   N  NN SSSS  |");
-printf("\n|                                                                                                                        |");
-printf("\n|                                                                                                                        |");
-printf("\n|                                     L     EEEE  VV     VV EEEE  L                                                      |");
-printf("\n|                                     L     EEEE   V     V  EEEE  L                                                      |");
-printf("\n|                                     L     E      VV   VV  E     L                                                      |");
-printf("\n|                                     L     EEEE    V   V   EEEE  L                                                      |");
-printf("\n|                                     L     E       VV VV   E     L                                                      |");
-printf("\n|                                     L     EEEE     VVV    EEEE  L                                                      |");
-printf("\n|                                     LLLL  EEEE      V     EEEE  LLLL                                                   |");
-printf("\n|                                                                                                                        |");
-printf("\n|                                                                                                                        |");
-printf("\n|                           CCC   OO   M M   M M  PPP   L     EEEE  TTTTT  EEEE  DDD                                     |");
-printf("\n|                          C     O  O  M MM MM M  P  P  L     EEEE    T    EEEE  D  D                                    |");
-printf("\n|                          C     O  O  M  MMM  M  P  P  L     E       T    E     D  D                                    |");
-printf("\n|                          C     O  O  M   M   M  PPP   L     EEEE    T    EEEE  D  D                                    |");
-printf("\n|                          C     O  O  M       M  P     L     E       T    E     D  D                                    |");
-printf("\n|                          C     O  O  M       M  P     L     EEEE    T    EEEE  D  D                                    |");
-printf("\n|                           CCC   OO   M       M  P     LLLL  EEEE    T    EEEE  DDD                                     |");
-printf("\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+printf("\n/^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|");
+printf("\n|  CCCC    OOO    NN    N   GGGGG   RRRR   AAAAA   TTTTTT   U   U   L      AAAAA   TTTTTT   U   U   L       AAAAA   TTTTTT   IIIIII   OOO    NN    N   SSSSS  |");
+printf("\n| C       O   O   N N   N   G       R   R  A   A      T     U   U   L      A   A      T     U   U   L       A   A     T        I     O   O   N N   N   S      |");
+printf("\n| C       O   O   N  N  N   G       R   R  A   A      T     U   U   L      A   A      T     U   U   L       A   A     T        I     O   O   N  N  N   S      |");
+printf("\n| C       O   O   N  N  N   G GGG   RRRR   AAAAA      T     U   U   L      AAAAA      T     U   U   L       AAAAA     T        I     O   O   N  N  N   SSSSS  |");
+printf("\n| C       O   O   N  N  N   G   G   RR     A   A      T     U   U   L      A   A      T     U   U   L       A   A     T        I     O   O   N  N  N       S  |");
+printf("\n| C       O   O   N   N N   G   G   R R    A   A      T     U   U   L      A   A      T     U   U   L       A   A     T        I     O   O   N   N N       S  |");
+printf("\n|  CCCC    OOO    N    NN    GGG    R  R   A   A      T      UUU    LLLLL  A   A      T      UUU    LLLLL   A   A     T     IIIIIII   OOO    N    NN   SSSSS  |");
+printf("\n|                                                                                                                                                             |");
+printf("\n|                                                                                                                                                             |");
+printf("\n|                                                        L      EEEEE   VV      VV   EEEEE   L                                                                |");
+printf("\n|                                                        L      EEEEE    V      V    EEEEE   L                                                                |");
+printf("\n|                                                        L      E        VV    VV    E       L                                                                |");
+printf("\n|                                                        L      EEEEE     V    V     EEEEE   L                                                                |");
+printf("\n|                                                        L      E         VV VV      E       L                                                                |");
+printf("\n|                                                        L      EEEEE      VVV       EEEEE   L                                                                |");
+printf("\n|                                                        LLLLL  EEEEE       V        EEEEE   LLLLL                                                            |");
+printf("\n|                                                                                                                                                             |");
+printf("\n|                                                                                                                                                             |");
+printf("\n|                                        CCCC   OOO    MM      MM   PPPP    L       EEEEE   TTTTTT   EEEEE   DDDD                                             |");
+printf("\n|                                       C      O   O   M MM  MM M   P   P   L       EEEEE      T     EEEEE   D   D                                            |");
+printf("\n|                                       C      O   O   M  M M   M   P   P   L       E          T     E       D    D                                           |");
+printf("\n|                                       C      O   O   M   M    M   PPPP    L       EEEEE      T     EEEEE   D    D                                           |");
+printf("\n|                                       C      O   O   M        M   P       L       E          T     E       D    D                                           |");
+printf("\n|                                       C      O   O   M        M   P       L       EEEEE      T     EEEEE   D   D                                            |");
+printf("\n|                                        CCCC   OOO    M        M   P       LLLLL   EEEEE      T     EEEEE   DDDD                                             |");
+printf("\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
 sleep(5);
  }
  void groupname(){
      system("cls");
- printf("\n|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|");
- printf("\n|  CCC   OO   H  H  EEEE  RRR   EEEE  NN  N  TTTTT                   |");
- printf("\n| C     O  O  H  H  EEEE  R  R  EEEE  N N N    T                     |");
- printf("\n| C     O  O  H  H  E     R  R  E     N N N    T                     |");
- printf("\n| C     O  O  HHHH  EEEE  RRR   EEEE  N N N    T                     |");
- printf("\n| C     O  O  H  H  E     RR    E     N N N    T                     |");
- printf("\n| C     O  O  H  H  EEEE  R R   EEEE  N N N    T                     |");
- printf("\n|  CCC   OO   H  H  EEEE  R  R  EEEE  N  NN    T                     |");
- printf("\n|                                                                    |");
- printf("\n|                                                                    |");
- printf("\n|                   BBB   U  U  IIIII  L     DDD   EEEE  RRR   SSSS  |");
- printf("\n|                   B  B  U  U    I    L     D  D  EEEE  R  R  S     |");
- printf("\n|                   B  B  U  U    I    L     D  D  E     R  R  S     |");
- printf("\n|                   BBB   U  U    I    L     D  D  EEEE  RRR   SSSS  |");
- printf("\n|                   B  B  U  U    I    L     D  D  E     RR       S  |");
- printf("\n|                   B  B  U  U    I    L     D  D  EEEE  R R      S  |");
- printf("\n|                   BBB   UUUU  IIIII  LLLL  DDD   EEEE  R  R  SSSS  |");
- printf("\n|                                                                    |");
- printf("\n|                                                                    |");
- printf("\n| PPP   RRR   EEEE  SSSS  EEEE  NN  N  TTTTT ||  SSSS                |");
- printf("\n| P  P  R  R  EEEE  S     EEEE  N N N    T  _||  S                   |");
- printf("\n| P  P  R  R  E     S     E     N N N    T       S                   |");
- printf("\n| PPP   RRR   EEEE  SSSS  EEEE  N N N    T       SSSS                |");
- printf("\n| P     RR    E        S  E     N N N    T          S                |");
- printf("\n| P     R R   EEEE     S  EEEE  N N N    T          S                |");
- printf("\n| P     R  R  EEEE  SSSS  EEEE  N  NN    T       SSSS                |");
- printf("\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
- sleep(2);
+ printf("\n|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|");
+ printf("\n|  CCCC    OOO    H   H   EEEEE  RRRR    EEEEE   NN    N   TTTTTT                    |");
+ printf("\n| C       O   O   H   H   EEEEE  R   R   EEEEE   N N   N     T                       |");
+ printf("\n| C       O   O   H   H   E      R   R   E       N  N  N     T                       |");
+ printf("\n| C       O   O   HHHHH   EEEEE  RRRR    EEEEE   N  N  N     T                       |");
+ printf("\n| C       O   O   H   H   E      RR      E       N  N  N     T                       |");
+ printf("\n| C       O   O   H   H   EEEEE  R R     EEEEE   N   N N     T                       |");
+ printf("\n|  CCCC    OOO    H   H   EEEEE  R  R    EEEEE   N    NN     T                       |");
+ printf("\n|                                                                                    |");
+ printf("\n|                                                                                    |");
+ printf("\n|                   BBBB    U   U   IIIIII   L       DDDD     EEEEE   RRRR    SSSSS  |");
+ printf("\n|                   B   B   U   U      I     L       D   D    EEEEE   R   R   S      |");
+ printf("\n|                   B   B   U   U      I     L       D    D   E       R   R   S      |");
+ printf("\n|                   BBBB    U   U      I     L       D    D   EEEEE   RRRR    SSSSS  |");
+ printf("\n|                   B   B   U   U      I     L       D    D   E       RR          S  |");
+ printf("\n|                   B   B   U   U      I     L       D   D    EEEEE   R R         S  |");
+ printf("\n|                   BBBB    UUUUU   IIIIII   LLLLL   DDDD     EEEEE   R  R    SSSSS  |");
+ printf("\n|                                                                                    |");
+ printf("\n|                                                                                    |");
+ printf("\n| PPPP    RRRR    EEEEE   SSSSS   EEEEE   NN    N   TTTTTT ||  SSSSS                 |");
+ printf("\n| P   P   R   R   EEEEE   S       EEEEE   N N   N     T   _||  S                     |");
+ printf("\n| P   P   R   R   E       S       E       N  N  N     T        S                     |");
+ printf("\n| PPPP    RRRR    EEEEE   SSSSS   EEEEE   N  N  N     T        SSSSS                 |");
+ printf("\n| P       RR      E           S   E       N  N  N     T            S                 |");
+ printf("\n| P       R R     EEEEE       S   EEEEE   N  N  N     T            S                 |");
+ printf("\n| P       R  R    EEEEE   SSSSS   EEEEE   N   NN      T        SSSSS                 |");
+ printf("\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+ sleep(10);
  }
