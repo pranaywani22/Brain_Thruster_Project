@@ -147,10 +147,10 @@ label1:
     scanf(" %c",&ch);
     ch1=ch;
     if(ch=='i'|| ch1=='I')
-    {
+    {score=score+5;
         label2:
     system("cls");
-    score=score+5;
+
      printf("\n ----------------------------------------------------------");
     printf("\n |    Hi,              score=%d        your life =%d      |",score,live);
     printf("\n | Level 1 starts                                         |");
@@ -164,10 +164,10 @@ label1:
     scanf(" %c",&ch2);
     ch3=ch2;
     if(ch2=='n'||ch3=='N')
-    {
+    {score=score+10;
         label3:
         system("cls");
-    score=score+10;
+
      printf("\n ----------------------------------------------------------");
     printf("\n |    Hi,              score=%d        your life =%d      |",score,live);
     printf("\n | Level 1 starts                                         |");
@@ -181,9 +181,9 @@ label1:
     scanf(" %c",&ch4);
     ch5=ch4;
     if(ch4=='i'||ch5=='I')
-    {
+    {score=score+15;
         system("cls");
-    score=score+15;
+
      printf("\n ----------------------------------------------------------");
     printf("\n |    Hi,              score=%d        your life =%d      |",score,live);
     printf("\n | Level 1 starts                                         |");
@@ -251,10 +251,10 @@ label1:
     scanf(" %c",&ch);
     ch1=ch;
     if(ch=='i'|| ch1=='I')
-    {
+    { score=score+5;
         label2:
     system("cls");
-    score=score+5;
+
      printf("\n ----------------------------------------------------------");
     printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
     printf("\n | Level 1 starts                                         |");
@@ -268,10 +268,10 @@ label1:
     scanf(" %c",&ch2);
     ch3=ch2;
     if(ch2=='C'||ch3=='c')
-    {
+    {score=score+10;
         label3:
         system("cls");
-    score=score+10;
+
      printf("\n ----------------------------------------------------------");
     printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
     printf("\n | Level 1 starts                                         |");
@@ -285,10 +285,10 @@ label1:
     scanf(" %c",&ch4);
     ch5=ch4;
     if(ch4=='o'||ch5=='O')
-    {
+    {score=score+15;
         label4:
         system("cls");
-    score=score+15;
+
      printf("\n ----------------------------------------------------------");
     printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
     printf("\n | Level 1 starts                                         |");
@@ -302,10 +302,10 @@ label1:
      scanf(" %c",&ch2);
     ch3=ch2;
     if(ch2=='c'||ch3=='C')
-        {
+        {score=score+20;
             label5:
         system("cls");
-    score=score+20;
+
      printf("\n ----------------------------------------------------------");
     printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
     printf("\n | Level 1 starts                                         |");
@@ -410,10 +410,10 @@ label1:
     scanf(" %c",&ch);
     ch1=ch;
     if(ch=='s'|| ch1=='S')
-    {
+    {score=score+5;
         label2:
     system("cls");
-    score=score+5;
+
      printf("\n ----------------------------------------------------------");
     printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
     printf("\n | Level 1 starts                                         |");
@@ -427,10 +427,10 @@ label1:
     scanf(" %c",&ch2);
     ch3=ch2;
     if(ch2=='a'||ch3=='A')
-    {
+    {score=score+10;
         label3:
         system("cls");
-    score=score+10;
+
      printf("\n ----------------------------------------------------------");
     printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
     printf("\n | Level 1 starts                                         |");
@@ -444,10 +444,10 @@ label1:
     scanf(" %c",&ch4);
     ch5=ch4;
     if(ch4=='h'||ch5=='H')
-    {
+    {score=score+15;
         label4:
         system("cls");
-    score=score+15;
+
      printf("\n ----------------------------------------------------------");
     printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
     printf("\n | Level 1 starts                                         |");
@@ -461,10 +461,10 @@ label1:
      scanf(" %c",&ch2);
     ch3=ch2;
     if(ch2=='i'||ch3=='I')
-        {
+        { score=score+20;
             label5:
         system("cls");
-    score=score+20;
+
      printf("\n ----------------------------------------------------------");
     printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
     printf("\n | Level 1 starts                                         |");
@@ -546,10 +546,10 @@ label1:
     scanf(" %c",&ch);
     ch1=ch;
     if(ch=='p'|| ch1=='P')
-    {
+    {score=score+5;
         label2:
     system("cls");
-    score=score+5;
+
      printf("\n ----------------------------------------------------------");
     printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
     printf("\n | Level 1 starts                                         |");
@@ -563,10 +563,10 @@ label1:
     scanf(" %c",&ch2);
     ch3=ch2;
     if(ch2=='h'||ch3=='H')
-    {
+    {score=score+10;
         label3:
         system("cls");
-    score=score+10;
+
      printf("\n ----------------------------------------------------------");
     printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
     printf("\n | Level 1 starts                                         |");
@@ -580,10 +580,10 @@ label1:
     scanf(" %c",&ch4);
     ch5=ch4;
     if(ch4=='s'||ch5=='S')
-    {
+    {score=score+15;
         label4:
         system("cls");
-    score=score+15;
+
      printf("\n ----------------------------------------------------------");
     printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
     printf("\n | Level 1 starts                                         |");
@@ -597,10 +597,10 @@ label1:
      scanf(" %c",&ch6);
     ch7=ch6;
     if(ch6=='y'||ch7=='Y')
-        {
+        {score=score+20;
             label5:
         system("cls");
-    score=score+20;
+
      printf("\n ----------------------------------------------------------");
     printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
     printf("\n | Level 1 starts                                         |");
@@ -614,10 +614,10 @@ label1:
     scanf(" %c",&ch6);
     ch7=ch6;
     if(ch6=='n'||ch7=='N')
-    {
+    {score=score+25;
             label6:
         system("cls");
-    score=score+25;
+
      printf("\n ----------------------------------------------------------");
     printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
     printf("\n | Level 1 starts                                         |");
@@ -631,10 +631,10 @@ label1:
     scanf(" %c",&ch6);
     ch7=ch6;
     if(ch6=='s'||ch7=='S')
-    {
+    {score=score+30;
             label7:
         system("cls");
-    score=score+30;
+
      printf("\n ----------------------------------------------------------");
     printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
     printf("\n | Level 1 starts                                         |");
@@ -647,10 +647,10 @@ label1:
     printf("\n Enter the first word you would expect to be:- ");
     scanf(" %c",&ch6);
 if(ch6=='s'||ch7=='S')
-    {
+    {score=score+40;
             label8:
         system("cls");
-    score=score+40;
+
      printf("\n ----------------------------------------------------------");
     printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
     printf("\n | Level 1 starts                                         |");
@@ -674,7 +674,7 @@ if(ch6=='s'||ch7=='S')
         if(live==0)
             printf("\n YOU LOSE");
         else
-            {score=score-8;
+            {score--;
           goto label7;}
     }
         }
@@ -818,18 +818,8 @@ case 4:
 
         levels1();}
     break;
-case 5:
-    if(score>100)
-    l15();
-    else
-        {
-            system("cls");
-            printf("\n You Are not Eligible for this level play any smaller level again to increase your score");
-         printf("\n Your score is %d and required score is 100",score);
 
-        levels1();}
-    break;
-
+default:
     printf("\n Enter a valid Number");
     break;
 }
