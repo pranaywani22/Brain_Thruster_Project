@@ -853,9 +853,7 @@ printf("\n work in progress");
 void l24(){
 printf("\n work in progress");
 }
-void l25(){
-printf("\n work in progress");
-}
+
 void l31(){
 
 }
@@ -868,9 +866,7 @@ printf("\n work in progress");
 void l34(){
 printf("\n work in progress");
 }
-void l35(){
-printf("\n work in progress");
-}
+
 void levels2(){
   int level;
 printf("                                                     %d",score);
