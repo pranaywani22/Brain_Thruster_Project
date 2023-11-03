@@ -1677,7 +1677,7 @@ else{
     }
 }
 void l31(){
- system("cls");
+    system("cls");
     int live=5;
     char ch='e',ch1='E',ch2='g',ch3='G',ch4='u',ch5='U';
 printf("\n Welcome to the level 1");
@@ -1797,9 +1797,9 @@ label1:
         else
             {score=score-2;
          goto label1;}
-    }
-}
+    }
 
+}
 void l32(){
 printf("\n work in progress");
 }
@@ -1940,7 +1940,7 @@ if(ch12=='d'||ch13=='D')
     congratulations();
     printf("\n Want to play the next level Y/n");
     scanf(" %c",&choice);
-    if (choice=='y'|| choice =='Y')
+    if (choice == 'y'|| choice =='Y')
         instructions();
     else
         endgame();
@@ -2036,7 +2036,7 @@ else{
         else
             {score=score-2;
          goto label1;}
-    }
+    }
 }
 void l34(){
 printf("\n work in progress");
