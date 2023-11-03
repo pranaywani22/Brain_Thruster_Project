@@ -126,7 +126,7 @@ void stage3(){
 l21();
 }
 void stage4(){
-l21();
+l41();
 }
 void l11(){
     system("cls");
