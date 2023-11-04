@@ -43,7 +43,7 @@ void loading();
 void endgame();
 int main(){
     int a,i;
-    
+
     groupname();
     gamename();
     instructions();
@@ -159,7 +159,7 @@ label1:
 
      printf("\n ----------------------------------------------------------");
     printf("\n |    Hi,              score=%d        your life =%d      |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q1.                                                    |");
     printf("\n |    I _ D _ A                                           |");
@@ -176,7 +176,7 @@ label1:
 
     printf("\n ----------------------------------------------------------");
     printf("\n |    Hi,              score=%d        your life =%d      |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Level 1 is going to end soon..!!                    |");
     printf("\n |                                                        |");
     printf("\n | Q1.                                                    |");
     printf("\n |    I N D _ A                                           |");
@@ -192,28 +192,23 @@ label1:
 
      printf("\n ----------------------------------------------------------");
     printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q1.                                                    |");
     printf("\n |    I N D I A                                           |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    congratulations();
-    printf("\n Want to play the next level Y/n");
+    printf("\n U Scored %d",score);
+    printf("\n Want to Quit? Y/n");
     scanf(" %c",&choice);
     if (choice == 'y'|| choice =='Y')
-       {
-       if(score>=20)
-        l12();
-        else
-        {
-         system("cls");
-         levels1();
-        }
-        }
+       endgame();
     else
-        endgame();
+        {
+       loading();
+        l12();
+        }
     }
     else{
          system("cls");
