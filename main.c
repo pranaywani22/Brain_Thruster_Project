@@ -68,16 +68,12 @@ int random(){
     char name[10];
 printf("\n Enter your name");
 scanf("%s",name);
-Beep(500,500);
 printf("\n Enter your dob ddmm format");
 scanf("%d",&dob);
-Beep(500,500);
 printf("\n Enter current date ddmm");
 scanf("%d",&date);
-Beep(500,500);
 printf("\n Enter current time");
 scanf("%d",&time1);
-Beep(500,500);
 for(;time1>0;time1/=10)
 {
 time1rem=time1%10;
@@ -158,6 +154,8 @@ label1:
     ch1=ch;
     if(ch=='i'|| ch1=='I')
     {score=score+5;
+
+    Beep(1500,850)
         label2:
     system("cls");
 
@@ -176,6 +174,7 @@ label1:
     ch3=ch2;
     if(ch2=='n'||ch3=='N')
     {score=score+10;
+    Beep(1500,850)
         label3:
         system("cls");
 
@@ -194,6 +193,7 @@ label1:
     ch5=ch4;
     if(ch4=='i'||ch5=='I')
     {score=score+15;
+    Beep(1500,850)
         system("cls");
 
      printf("\n ----------------------------------------------------------");
@@ -279,6 +279,7 @@ label1:
     if(ch=='s'|| ch1=='S')
     { score=score+5;
    
+   Beep(1500,850)
         label2:
     system("cls");
 
@@ -296,6 +297,7 @@ label1:
     ch3=ch2;
     if(ch2=='r'||ch3=='R')
     {score=score+10;
+    Beep(1500,850)
         label3:
         system("cls");
 
@@ -313,6 +315,7 @@ label1:
     ch5=ch4;
     if(ch4=='s'||ch5=='S')
     {score=score+15;
+    Beep(1500,850)
         label4:
         system("cls");
 
@@ -330,6 +333,7 @@ label1:
     ch7=ch6;
     if(ch6=='h'||ch7=='H')
         {score=score+20;
+        Beep(1500,850)
             label5:
         system("cls");
 
@@ -458,6 +462,7 @@ label1:
     ch1=ch;
     if(ch=='p'|| ch1=='P')
     {score=score+5;
+    Beep(1500,850)
         label2:
     system("cls");
 
@@ -475,6 +480,7 @@ label1:
     ch3=ch2;
     if(ch2=='h'||ch3=='H')
     {score=score+10;
+    Beep(1500,850)
         label3:
         system("cls");
 
@@ -492,6 +498,7 @@ label1:
     ch5=ch4;
     if(ch4=='s'||ch5=='S')
     {score=score+15;
+    Beep(1500,850)
         label4:
         system("cls");
 
@@ -509,6 +516,7 @@ label1:
     ch7=ch6;
     if(ch6=='y'||ch7=='Y')
         {score=score+20;
+        Beep(1500,850)
             label5:
         system("cls");
 
@@ -526,6 +534,7 @@ label1:
     ch7=ch6;
     if(ch6=='n'||ch7=='N')
     {score=score+25;
+    Beep(1500,850)
             label6:
         system("cls");
 
@@ -543,6 +552,7 @@ label1:
     ch7=ch6;
     if(ch6=='s'||ch7=='S')
     {score=score+30;
+    Beep(1500,850)
             label7:
         system("cls");
 
@@ -559,6 +569,7 @@ label1:
     scanf(" %c",&ch6);
 if(ch6=='s'||ch7=='S')
     {score=score+40;
+    Beep(1500,850)
             label8:
         system("cls");
 
@@ -697,6 +708,7 @@ label1:
     ch1=ch;
     if(ch=='i'|| ch1=='I')
   {score=score+5;
+  Beep(1500,850)
         label2:
     system("cls");
     printf("\n ----------------------------------------------------------");
@@ -713,6 +725,7 @@ label1:
     ch3=ch2;
     if(ch2=='C'||ch3=='c')
     {score=score+10;
+    Beep(1500,850)
         label3:
         system("cls");
 
@@ -730,6 +743,7 @@ label1:
     ch5=ch4;
     if(ch4=='o'||ch5=='O')
     {  score=score+15;
+    Beep(1500,850)
         label4:
         system("cls");
 
@@ -747,6 +761,7 @@ label1:
     ch3=ch2;
     if(ch2=='c'||ch3=='C')
         {score=score+20;
+        Beep(1500,850)
             label5:
         system("cls");
 
@@ -764,6 +779,7 @@ label1:
     ch5=ch4;
     if(ch4=='o'||ch5=='O')
          {score=score+20;
+         Beep(1500,850)
         system("cls");
 
      printf("\n ----------------------------------------------------------");
@@ -930,6 +946,8 @@ void l21(){
     ch1=ch;
     if(ch=='b'|| ch1=='B')
     {score=score+5;
+
+    Beep(1500,850);
         label2:
     system("cls");
 
@@ -947,6 +965,7 @@ void l21(){
     ch3=ch2;
     if(ch2=='a'||ch3=='A')
     {score=score+10;
+    Beep(1500,850);
         label3:
         system("cls");
 
@@ -964,6 +983,7 @@ void l21(){
     ch5=ch4;
     if(ch4=='i'||ch5=='I')
     {score=score+15;
+    Beep(1500,850);
         system("cls");
 
      printf("\n ----------------------------------------------------------");
@@ -1048,6 +1068,7 @@ label1:
     ch1=ch;
     if(ch=='a'|| ch1=='A')
     { score=score+5;
+    Beep(1500,850);
         label2:
     system("cls");
 
@@ -1065,6 +1086,7 @@ label1:
     ch3=ch2;
     if(ch2=='r'||ch3=='R')
     {score=score+10;
+    Beep(1500,850);
         label3:
         system("cls");
 
@@ -1082,6 +1104,7 @@ label1:
     ch5=ch4;
     if(ch4=='e'||ch5=='E')
     {score=score+15;
+    Beep(1500,850);
         label4:
         system("cls");
 
@@ -1099,6 +1122,7 @@ label1:
     ch7=ch6;
     if(ch6=='n'||ch7=='N')
         {score=score+20;
+        Beep(1500,850);
             label5:
         system("cls");
 
@@ -1116,6 +1140,7 @@ label1:
     ch9=ch8;
     if(ch8=='e'||ch9=='E')
          {
+            Beep(1500,850);
         system("cls");
     score=score+20;
      printf("\n ----------------------------------------------------------");
@@ -1227,6 +1252,7 @@ label1:
     ch1=ch;
     if(ch=='o'|| ch1=='O')
     {score=score+5;
+    Beep(1500,850);
         label2:
     system("cls");
 
@@ -1244,6 +1270,7 @@ label1:
     ch3=ch2;
     if(ch2=='a'||ch3=='A')
     {score=score+10;
+    Beep(1500,850);
         label3:
         system("cls");
 
@@ -1261,6 +1288,7 @@ label1:
     ch5=ch4;
     if(ch4=='n'||ch5=='N')
     {score=score+15;
+    Beep(1500,850);
         label4:
         system("cls");
 
@@ -1278,6 +1306,7 @@ label1:
     ch7=ch6;
     if(ch6=='e'||ch7=='E')
         {score=score+20;
+        Beep(1500,850);
             label5:
         system("cls");
 
@@ -1295,6 +1324,7 @@ label1:
     ch9=ch8;
     if(ch8=='s'||ch9=='S')
     {score=score+25;
+    Beep(1500,850);
             label6:
         system("cls");
 
@@ -1313,6 +1343,7 @@ label1:
     if(ch10=='u'||ch11=='U')
     {
         score=score+30;
+        Beep(1500,850);
             label7:
         system("cls");
     printf("\n ----------------------------------------------------------");
@@ -1328,6 +1359,7 @@ label1:
     scanf(" %c",&ch12);
 if(ch12=='r'||ch13=='R')
     {score=score+40;
+    Beep(1500,850);
             label8:
         system("cls");
 
@@ -1463,6 +1495,7 @@ label1:
     ch1=ch;
     if(ch=='a'|| ch1=='A')
     {score=score+5;
+    Beep(1500,850);
         label2:
     system("cls");
 
@@ -1480,6 +1513,9 @@ label1:
     ch3=ch2;
     if(ch2=='e'||ch3=='E')
     {score=score+10;
+
+    Beep(1500,850);
+    Beep(1500,850);
         label3:
         system("cls");
 
@@ -1497,6 +1533,8 @@ label1:
     ch5=ch4;
     if(ch4=='i'||ch5=='I')
     {score=score+15;
+    Beep(1500,850);
+    Beep(1500,850);
         label4:
         system("cls");
 
@@ -1514,6 +1552,8 @@ label1:
     ch7=ch6;
     if(ch6=='o'||ch7=='O')
         {score=score+20;
+        Beep(1500,850);
+        Beep(1500,850);
             label5:
         system("cls");
 
@@ -1531,6 +1571,8 @@ label1:
     ch9=ch8;
     if(ch8=='h'||ch9=='H')
     {score=score+25;
+    Beep(1500,850);
+    Beep(1500,850);
             label6:
         system("cls");
 
@@ -1548,6 +1590,8 @@ label1:
     ch11=ch10;
     if(ch10=='g'||ch11=='G')
     {score=score+30;
+    Beep(1500,850);
+    Beep(1500,850);
             label7:
         system("cls");
 
@@ -1564,6 +1608,8 @@ label1:
     scanf(" %c",&ch12);
 if(ch12=='e'||ch13=='E')
     {score=score+40;
+    Beep(1500,850);
+    Beep(1500,850);
             label8:
         system("cls");
 
@@ -1701,6 +1747,8 @@ label1:
     ch1=ch;
     if(ch=='e'|| ch1=='E')
     {score=score+5;
+    Beep(1500,850);
+    Beep(1500,850);
         label2:
     system("cls");
 
@@ -1718,6 +1766,8 @@ label1:
     ch3=ch2;
     if(ch2=='g'||ch3=='G')
     {score=score+10;
+    Beep(1500,850);
+    Beep(1500,850);
         label3:
         system("cls");
 
@@ -1735,6 +1785,8 @@ label1:
     ch5=ch4;
     if(ch4=='u'||ch5=='U')
     {score=score+15;
+    Beep(1500,850);
+    Beep(1500,850);
         system("cls");
 
      printf("\n ----------------------------------------------------------");
@@ -1820,6 +1872,8 @@ label1:
     ch1=ch;
     if(ch=='c'|| ch1=='C')
     { score=score+5;
+    Beep(1500,850);
+    Beep(1500,850);
         label2:
     system("cls");
 
@@ -1837,6 +1891,8 @@ label1:
     ch3=ch2;
     if(ch2=='s'||ch3=='S')
     {score=score+10;
+    Beep(1500,850);
+    Beep(1500,850);
         label3:
         system("cls");
 
@@ -1854,6 +1910,8 @@ label1:
     ch5=ch4;
     if(ch4=='t'||ch5=='T')
     {score=score+15;
+    Beep(1500,850);
+    Beep(1500,850);
         label4:
         system("cls");
 
@@ -1871,6 +1929,8 @@ label1:
     ch7=ch6;
     if(ch6=='a'||ch7=='A')
         {score=score+20;
+        Beep(1500,850);
+        Beep(1500,850);
             label5:
         system("cls");
 
@@ -1888,6 +1948,8 @@ label1:
     ch9=ch8;
     if(ch8=='i'||ch9=='I')
          {
+            Beep(1500,850);
+            Beep(1500,850);
         system("cls");
     score=score+20;
      printf("\n ----------------------------------------------------------");
@@ -1998,6 +2060,8 @@ label1:
     ch1=ch;
     if(ch=='a'|| ch1=='A')
     {score=score+5;
+    Beep(1500,850);
+    Beep(1500,850);
         label2:
     system("cls");
 
@@ -2015,6 +2079,8 @@ label1:
     ch3=ch2;
     if(ch2=='u'|| ch3=='U')
     {score=score+10;
+    Beep(1500,850);
+    Beep(1500,850);
         label3:
         system("cls");
 
@@ -2032,6 +2098,8 @@ label1:
     ch5=ch4;
     if(ch4=='n'|| ch5=='N')
     {score=score+15;
+    Beep(1500,850);
+    Beep(1500,850);
         label4:
         system("cls");
 
@@ -2049,6 +2117,8 @@ label1:
     ch7=ch6;
     if(ch6=='g' || ch7=='G')
         {score=score+20;
+        Beep(1500,850);
+        Beep(1500,850);
             label5:
         system("cls");
     printf("\n ----------------------------------------------------------");
@@ -2065,6 +2135,8 @@ label1:
     ch9=ch8;
     if(ch8=='a'|| ch9=='A')
     {score=score+25;
+    Beep(1500,850);
+    Beep(1500,850);
             label6:
         system("cls");
 
@@ -2082,6 +2154,8 @@ label1:
     ch11=ch10;
     if(ch10=='a'||ch11=='A')
     {score=score+30;
+    Beep(1500,850);
+    Beep(1500,850);
             label7:
         system("cls");
 
@@ -2098,6 +2172,8 @@ label1:
     scanf(" %c",&ch12);
 if(ch12=='d'||ch13=='D')
     {score=score+40;
+    Beep(1500,850);
+    Beep(1500,850);
             label8:
         system("cls");
 
@@ -2236,6 +2312,7 @@ label1:
     ch1=ch;
     if(ch=='a'|| ch1=='A')
     {score=score+5;
+    Beep(1500,850);
         label2:
     system("cls");
 
@@ -2253,6 +2330,7 @@ label1:
     ch3=ch2;
     if(ch2=='u'|| ch3=='U')
     {score=score+10;
+    Beep(1500,850);
         label3:
         system("cls");
 
@@ -2270,6 +2348,7 @@ label1:
     ch5=ch4;
     if(ch4=='n'|| ch5=='N')
     {score=score+15;
+    Beep(1500,850);
         label4:
         system("cls");
 
@@ -2287,6 +2366,7 @@ label1:
     ch7=ch6;
     if(ch6=='g' || ch7=='G')
         {score=score+20;
+        Beep(1500,850);
             label5:
         system("cls");
     printf("\n ----------------------------------------------------------");
@@ -2303,6 +2383,7 @@ label1:
     ch9=ch8;
     if(ch8=='a'|| ch9=='A')
     {score=score+25;
+    Beep(1500,850);
             label6:
         system("cls");
 
@@ -2320,6 +2401,7 @@ label1:
     ch11=ch10;
     if(ch10=='a'||ch11=='A')
     {score=score+30;
+    Beep(1500,850);
             label7:
         system("cls");
 
@@ -2336,6 +2418,7 @@ label1:
     scanf(" %c",&ch12);
 if(ch12=='d'||ch13=='D')
     {score=score+40;
+    Beep(1500,850);
             label8:
         system("cls");
 
@@ -2473,6 +2556,7 @@ label1:
     ch1=ch;
     if(ch=='a'|| ch1=='A')
     {score=score+5;
+    Beep(1500,850);
         label2:
     system("cls");
 
@@ -2490,6 +2574,7 @@ label1:
     ch3=ch2;
     if(ch2=='t'||ch3=='T')
     {score=score+10;
+    Beep(1500,850);
         label3:
         system("cls");
 
@@ -2507,6 +2592,7 @@ label1:
     ch5=ch4;
     if(ch4=='i'||ch5=='I')
     {score=score+15;
+    Beep(1500,850);
         system("cls");
 
      printf("\n ----------------------------------------------------------");
@@ -2591,6 +2677,7 @@ label1:
     ch1=ch;
     if(ch=='h'|| ch1=='H')
     { score=score+5;
+    Beep(1500,850);
         label2:
     system("cls");
 
@@ -2608,6 +2695,7 @@ label1:
     ch3=ch2;
     if(ch2=='y'||ch3=='Y')
     {score=score+10;
+    Beep(1500,850);
         label3:
         system("cls");
 
@@ -2625,6 +2713,7 @@ label1:
     ch5=ch4;
     if(ch4=='g'||ch5=='G')
     {score=score+15;
+    Beep(1500,850);
         label4:
         system("cls");
 
@@ -2642,6 +2731,7 @@ label1:
     ch7=ch6;
     if(ch6=='a'||ch7=='A')
         {score=score+20;
+        Beep(1500,850);
             label5:
         system("cls");
 
@@ -2661,6 +2751,7 @@ label1:
          {
         system("cls");
     score=score+20;
+    Beep(1500,850);
      printf("\n ----------------------------------------------------------");
     printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
     printf("\n | Level 1 starts                                         |");
@@ -2771,6 +2862,7 @@ label1:
     ch1=ch;
     if(ch=='h'|| ch1=='H')
     {score=score+5;
+    Beep(1500,850);
         label2:
     system("cls");
 
@@ -2788,6 +2880,7 @@ label1:
     ch3=ch2;
     if(ch2=='i'||ch3=='I')
     {score=score+10;
+    Beep(1500,850);
         label3:
         system("cls");
 
@@ -2805,6 +2898,7 @@ label1:
     ch5=ch4;
     if(ch4=='a'||ch5=='A')
     {score=score+15;
+    Beep(1500,850);
         label4:
         system("cls");
 
@@ -2822,6 +2916,7 @@ label1:
     ch7=ch6;
     if(ch6=='d'||ch7=='D')
         {score=score+20;
+        Beep(1500,850);
             label5:
         system("cls");
 
@@ -2839,6 +2934,7 @@ label1:
     ch9=ch8;
     if(ch8=='p'||ch9=='P')
     {score=score+25;
+    Beep(1500,850);
             label6:
         system("cls");
 
@@ -2857,6 +2953,7 @@ label1:
     if(ch10=='h'||ch11=='H')
     {
         score=score+30;
+        Beep(1500,850);
             label7:
         system("cls");
     printf("\n ----------------------------------------------------------");
@@ -2872,6 +2969,7 @@ label1:
     scanf(" %c",&ch12);
 if(ch12=='a'||ch13=='A')
     {score=score+40;
+    Beep(1500,850);
             label8:
         system("cls");
 
@@ -3007,6 +3105,7 @@ label1:
     ch1=ch;
     if(ch=='m'|| ch1=='M')
     {score=score+5;
+    Beep(1500,850);
         label2:
     system("cls");
 
@@ -3024,6 +3123,7 @@ label1:
     ch3=ch2;
     if(ch2=='e'||ch3=='E')
     {score=score+10;
+    Beep(1500,850);
         label3:
         system("cls");
 
@@ -3041,6 +3141,7 @@ label1:
     ch5=ch4;
     if(ch4=='m'||ch5=='M')
     {score=score+15;
+    Beep(1500,850);
         label4:
         system("cls");
 
@@ -3058,6 +3159,7 @@ label1:
     ch7=ch6;
     if(ch6=='p'||ch7=='P')
         {score=score+20;
+        Beep(1500,850);
             label5:
         system("cls");
 
@@ -3075,6 +3177,7 @@ label1:
     ch9=ch8;
     if(ch8=='h'||ch9=='H')
     {score=score+25;
+    Beep(1500,850);
             label6:
         system("cls");
 
@@ -3093,6 +3196,7 @@ label1:
     if(ch10=='o'||ch11=='O')
     {
         score=score+30;
+        Beep(1500,850);
             label7:
         system("cls");
     printf("\n ----------------------------------------------------------");
@@ -3108,6 +3212,7 @@ label1:
     scanf(" %c",&ch12);
 if(ch12=='i'||ch13=='I')
     {score=score+40;
+    Beep(1500,850);
             label8:
         system("cls");
 
