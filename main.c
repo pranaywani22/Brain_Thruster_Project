@@ -8,7 +8,7 @@
 int sound(){
     int i,beep;
 for(i=0;i<3;i++)
-Beep(500,1000);
+Beep(500,900);
 return 0;
 }
 char name[10];
