@@ -154,7 +154,7 @@ label1:
     printf("\n ----------------------------------------------------------");
     printf("\n Enter the first word you would expect to be:- ");
     scanf(" %c",&ch);
-    Beep(500,500);
+   
     ch1=ch;
     if(ch=='i'|| ch1=='I')
     {score=score+5;
@@ -172,7 +172,7 @@ label1:
     printf("\n ----------------------------------------------------------");
     printf("\n Enter the second word you would expect to be:- ");
     scanf(" %c",&ch2);
-    Beep(500,500);
+   
     ch3=ch2;
     if(ch2=='n'||ch3=='N')
     {score=score+10;
@@ -190,7 +190,7 @@ label1:
     printf("\n ----------------------------------------------------------");
     printf("\n Enter the third word you would expect to be:- ");
     scanf(" %c",&ch4);
-    Beep(500,500);
+   
     ch5=ch4;
     if(ch4=='i'||ch5=='I')
     {score=score+15;
@@ -278,7 +278,7 @@ label1:
     ch1=ch;
     if(ch=='s'|| ch1=='S')
     { score=score+5;
-    Beep(150,150)
+   
         label2:
     system("cls");
 
@@ -839,18 +839,6 @@ label1:
          goto label1;}
     }
 }
-void name1(){
-    //designed by pranay
-char name[10];
-    int b,c,d;
-    printf("\n Enter Your Name :- ");
-    scanf("%s",name);
-    b=strlen(name);
-    for(;b>0;b--){
-
-    }
-       system("cls");
-}
 void instructions(){
     system("cls");
     char ch='y',ch1='Y';
@@ -860,16 +848,7 @@ printf("\n 3] If you loose the first try then you will get the hint and will rem
 printf("\n 4] As your lives becomes 0 you loose the game and you have to restart with some new word");
 printf("\n 5] The same word won't repeat");
 printf("\n 6] As the level increases the difficulty level will also increase");
-printf("\n Do you want to continue and start the game Y/N? \n");
-scanf(" %c",&ch);
-ch1=ch;
-if (ch1=='Y' ||ch=='y')
-    {
-    system("cls");
-    printf("\n Ohk Be ready to Make your Brain sprint to its Max capacity");
-    }
-else
-   endgame();
+sleep(30);
 }
 void levels1(){
     int level;
