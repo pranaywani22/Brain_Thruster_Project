@@ -4,6 +4,7 @@
 #include<string.h>
 #include<time.h>
 #include<unistd.h>
+#include<windows.h>
 char name[10];
 int score=0,i=0,dob;
 char choice='y';
@@ -67,12 +68,16 @@ int random(){
     char name[10];
 printf("\n Enter your name");
 scanf("%s",name);
+Beep(500,500);
 printf("\n Enter your dob ddmm format");
 scanf("%d",&dob);
+Beep(500,500);
 printf("\n Enter current date ddmm");
 scanf("%d",&date);
+Beep(500,500);
 printf("\n Enter current time");
 scanf("%d",&time1);
+Beep(500,500);
 for(;time1>0;time1/=10)
 {
 time1rem=time1%10;
@@ -149,6 +154,7 @@ label1:
     printf("\n ----------------------------------------------------------");
     printf("\n Enter the first word you would expect to be:- ");
     scanf(" %c",&ch);
+    Beep(500,500);
     ch1=ch;
     if(ch=='i'|| ch1=='I')
     {score=score+5;
@@ -166,6 +172,7 @@ label1:
     printf("\n ----------------------------------------------------------");
     printf("\n Enter the second word you would expect to be:- ");
     scanf(" %c",&ch2);
+    Beep(500,500);
     ch3=ch2;
     if(ch2=='n'||ch3=='N')
     {score=score+10;
@@ -183,6 +190,7 @@ label1:
     printf("\n ----------------------------------------------------------");
     printf("\n Enter the third word you would expect to be:- ");
     scanf(" %c",&ch4);
+    Beep(500,500);
     ch5=ch4;
     if(ch4=='i'||ch5=='I')
     {score=score+15;
@@ -270,6 +278,7 @@ label1:
     ch1=ch;
     if(ch=='s'|| ch1=='S')
     { score=score+5;
+    Beep(150,150)
         label2:
     system("cls");
 
@@ -917,6 +926,7 @@ printf("\n to be updated soon");
 }
 }
 void endgame(){
+    system("cls");
 printf("Thanks a lot for playing the game..!!!");
 }
 void l21(){
@@ -3403,7 +3413,7 @@ printf("\n                T     HHHHH   RRRR    U   U   SSSSS     T      EEEE   
 printf("\n                T     H   H   RR      U   U       S     T      E      RR    ");
 printf("\n                T     H   H   R R     U   U       S     T      EEEE   R R   ");
 printf("\n                T     H   H   R  R    UUUUU   SSSSS     T      EEEE   R  R  ");
-sleep(1);
+sleep(5);
 }
 void loading(){
     system("cls");
@@ -3414,7 +3424,7 @@ printf("\nL      O   O  AAAAA  D   D    I    N  N  N  G GGG                  ");
 printf("\nL      O   O  A   A  D   D    I    N  N  N  G   G  ::::  ::::  ::::");
 printf("\nL      O   O  A   A  D  D     I    N   N N  G   G  ::::  ::::  ::::");
 printf("\nLLLLL   OOO   A   A  DDD    IIIII  N    NN  GGGGG  ::::  ::::  ::::");
-sleep(1);
+sleep(3);
  }
 void groupname(){
      system("cls");
@@ -3445,12 +3455,12 @@ void groupname(){
  printf("\n| P       R R     EEEEE       S   EEEEE   N  N  N     T            S                 |");
  printf("\n| P       R  R    EEEEE   SSSSS   EEEEE   N   NN      T        SSSSS                 |");
  printf("\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
- sleep(1);
+ sleep(7);
  }
 void lose(){
     system("cls");
 printf("\n|-------------|");
 printf("\n|   YOU LOSE  |");
 printf("\n|-------------|");
-sleep(1);
+sleep(2);
 }
