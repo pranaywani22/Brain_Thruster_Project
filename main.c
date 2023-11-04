@@ -4,6 +4,13 @@
 #include<string.h>
 #include<time.h>
 #include<unistd.h>
+#include<windows.h>
+int sound(){
+    int i,beep;
+for(i=0;i<3;i++)
+Beep(500,1000);
+return 0;
+}
 char name[10];
 int score=0,i=0,dob;
 char choice='y';
@@ -41,6 +48,7 @@ void congratulations();
 void endgame();
 int main(){
     int a,i;
+    sound();
     groupname();
     gamename();
     instructions();
