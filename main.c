@@ -150,12 +150,12 @@ label1:
     printf("\n ----------------------------------------------------------");
     printf("\n Enter the first word you would expect to be:- ");
     scanf(" %c",&ch);
-   
+
     ch1=ch;
     if(ch=='i'|| ch1=='I')
     {score=score+5;
 
-    Beep(1500,850)
+    Beep(1500,850);
         label2:
     system("cls");
 
@@ -170,11 +170,11 @@ label1:
     printf("\n ----------------------------------------------------------");
     printf("\n Enter the second word you would expect to be:- ");
     scanf(" %c",&ch2);
-   
+
     ch3=ch2;
     if(ch2=='n'||ch3=='N')
     {score=score+10;
-    Beep(1500,850)
+    Beep(1500,850);
         label3:
         system("cls");
 
@@ -189,11 +189,11 @@ label1:
     printf("\n ----------------------------------------------------------");
     printf("\n Enter the third word you would expect to be:- ");
     scanf(" %c",&ch4);
-   
+
     ch5=ch4;
     if(ch4=='i'||ch5=='I')
     {score=score+15;
-    Beep(1500,850)
+    Beep(1500,850);
         system("cls");
 
      printf("\n ----------------------------------------------------------");
@@ -278,8 +278,8 @@ label1:
     ch1=ch;
     if(ch=='s'|| ch1=='S')
     { score=score+5;
-   
-   Beep(1500,850)
+
+   Beep(1500,850);
         label2:
     system("cls");
 
@@ -297,7 +297,7 @@ label1:
     ch3=ch2;
     if(ch2=='r'||ch3=='R')
     {score=score+10;
-    Beep(1500,850)
+    Beep(1500,850);
         label3:
         system("cls");
 
@@ -315,7 +315,7 @@ label1:
     ch5=ch4;
     if(ch4=='s'||ch5=='S')
     {score=score+15;
-    Beep(1500,850)
+    Beep(1500,850);
         label4:
         system("cls");
 
@@ -333,7 +333,7 @@ label1:
     ch7=ch6;
     if(ch6=='h'||ch7=='H')
         {score=score+20;
-        Beep(1500,850)
+        Beep(1500,850);
             label5:
         system("cls");
 
@@ -462,7 +462,7 @@ label1:
     ch1=ch;
     if(ch=='p'|| ch1=='P')
     {score=score+5;
-    Beep(1500,850)
+    Beep(1500,850);
         label2:
     system("cls");
 
@@ -480,7 +480,7 @@ label1:
     ch3=ch2;
     if(ch2=='h'||ch3=='H')
     {score=score+10;
-    Beep(1500,850)
+    Beep(1500,850);
         label3:
         system("cls");
 
@@ -498,7 +498,7 @@ label1:
     ch5=ch4;
     if(ch4=='s'||ch5=='S')
     {score=score+15;
-    Beep(1500,850)
+    Beep(1500,850);
         label4:
         system("cls");
 
@@ -516,7 +516,7 @@ label1:
     ch7=ch6;
     if(ch6=='y'||ch7=='Y')
         {score=score+20;
-        Beep(1500,850)
+        Beep(1500,850);
             label5:
         system("cls");
 
@@ -534,7 +534,7 @@ label1:
     ch7=ch6;
     if(ch6=='n'||ch7=='N')
     {score=score+25;
-    Beep(1500,850)
+    Beep(1500,850);
             label6:
         system("cls");
 
@@ -552,7 +552,7 @@ label1:
     ch7=ch6;
     if(ch6=='s'||ch7=='S')
     {score=score+30;
-    Beep(1500,850)
+    Beep(1500,850);
             label7:
         system("cls");
 
@@ -569,7 +569,7 @@ label1:
     scanf(" %c",&ch6);
 if(ch6=='s'||ch7=='S')
     {score=score+40;
-    Beep(1500,850)
+    Beep(1500,850);
             label8:
         system("cls");
 
@@ -708,7 +708,7 @@ label1:
     ch1=ch;
     if(ch=='i'|| ch1=='I')
   {score=score+5;
-  Beep(1500,850)
+  Beep(1500,850);
         label2:
     system("cls");
     printf("\n ----------------------------------------------------------");
@@ -725,7 +725,7 @@ label1:
     ch3=ch2;
     if(ch2=='C'||ch3=='c')
     {score=score+10;
-    Beep(1500,850)
+    Beep(1500,850);
         label3:
         system("cls");
 
@@ -743,7 +743,7 @@ label1:
     ch5=ch4;
     if(ch4=='o'||ch5=='O')
     {  score=score+15;
-    Beep(1500,850)
+    Beep(1500,850);
         label4:
         system("cls");
 
@@ -761,7 +761,7 @@ label1:
     ch3=ch2;
     if(ch2=='c'||ch3=='C')
         {score=score+20;
-        Beep(1500,850)
+        Beep(1500,850);
             label5:
         system("cls");
 
@@ -779,7 +779,7 @@ label1:
     ch5=ch4;
     if(ch4=='o'||ch5=='O')
          {score=score+20;
-         Beep(1500,850)
+         Beep(1500,850);
         system("cls");
 
      printf("\n ----------------------------------------------------------");
