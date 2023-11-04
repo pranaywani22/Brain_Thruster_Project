@@ -357,7 +357,7 @@ label1:
     else
         {
        loading();
-        l12();
+        l13();
         }
     }
       else{
@@ -570,7 +570,7 @@ if(ch6=='s'||ch7=='S')
     else
         {
        loading();
-        l12();
+        l14();
         }
     }
     else{
@@ -774,7 +774,7 @@ label1:
     else
         {
        loading();
-        l12();
+        l21();
         }
     }
 
@@ -994,7 +994,7 @@ void l21(){
     else
         {
        loading();
-        l12();
+        l22();
         }
     }
     else{
@@ -1146,7 +1146,7 @@ label1:
     else
         {
        loading();
-        l12();
+        l23();
         }
     }
       else{
@@ -1359,7 +1359,7 @@ if(ch12=='r'||ch13=='R')
     else
         {
        loading();
-        l12();
+        l24();
         }
     }
     else{
@@ -1595,7 +1595,7 @@ if(ch12=='e'||ch13=='E')
     else
         {
        loading();
-        l12();
+        l31();
         }
     }
     else{
@@ -1765,7 +1765,7 @@ label1:
     else
         {
        loading();
-        l12();
+        l32();
         }
     }
     else{
@@ -1954,7 +1954,7 @@ if(ch12=='d'||ch13=='D')
     else
         {
        loading();
-        l12();
+        l34();
         }
     }
     else{
@@ -2128,7 +2128,7 @@ label1:
     else
         {
        loading();
-        l12();
+        l42();
         }}
     else{
          system("cls");
@@ -2280,7 +2280,7 @@ label1:
     else
         {
        loading();
-        l12();
+        l43();
         }
     }
       else{
@@ -2494,7 +2494,7 @@ if(ch12=='a'||ch13=='A')
     else
         {
        loading();
-        l12();
+        l44();
         }
     }
     else{
@@ -2668,7 +2668,7 @@ label1:
     printf("\n | Level 4 starts                                         |");
     printf("\n |                                                        |");
     printf("\n | Q4.                                                    |");
-    printf("\n |     M E T A M O R P _ _ S _ S                            |");
+    printf("\n |     M E T A M O R P _ _ S _ S                          |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
@@ -2685,7 +2685,7 @@ label1:
     printf("\n | Level 4 starts                                         |");
     printf("\n |                                                        |");
     printf("\n | Q4.                                                    |");
-    printf("\n |     M E T A M O R P H _ S _ S                            |");
+    printf("\n |     M E T A M O R P H _ S _ S                          |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
@@ -2730,7 +2730,7 @@ if(ch12=='i'||ch13=='I')
     else
         {
        loading();
-        l12();
+        l11();
         }
     }
     else{
