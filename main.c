@@ -18,7 +18,7 @@ void stage1();
 void stage2();
 void stage3();
 void stage4();
-int random();
+int  random();
 void groupname();
 void l11();
 void l12();
@@ -40,9 +40,9 @@ void lose();
 void gamename();
 void loading();
 void endgame();
-int main(){
-    int a,i;
-
+int main()
+{
+    int a;
     groupname();
     gamename();
     instructions();
@@ -62,17 +62,19 @@ case 4:
     break;
 }
 }
-int random(){
+int random()
+{
+    system("cls");
  int dob,date,time1,time1rem,time1sum=0,daterem,datesum=0,dobrem,dobsum=0,rem,sum=0;
     int a,b,c,d,e,f,g,h,i,case1;
     char name[10];
-printf("\n Enter your name");
+printf("\n Enter your name:- ");
 scanf("%s",name);
-printf("\n Enter your dob ddmm format");
+printf("\n Enter your dob (DDMM) format:- ");
 scanf("%d",&dob);
-printf("\n Enter current date ddmm");
+printf("\n Enter current date (DDMM) format:- ");
 scanf("%d",&date);
-printf("\n Enter current time");
+printf("\n Enter current time (HHMM) format:-");
 scanf("%d",&time1);
 for(;time1>0;time1/=10)
 {
@@ -140,7 +142,7 @@ label1:
     printf("\nA small hint for you to make your life easy.");
     printf("\nThe word below is a country surrounded by 2 seas.");
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,             score=%d         your life =%d       |",score,live);
+    printf("\n |    Hi,             score=%d         your life =%d        |",score,live);
     printf("\n | Level 1 starts                                         |");
     printf("\n |                                                        |");
     printf("\n | Q1.                                                    |");
@@ -160,7 +162,7 @@ label1:
     system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d      |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q1.                                                    |");
@@ -179,7 +181,7 @@ label1:
         system("cls");
 
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d      |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |    Level 1 is going to end soon..!!                    |");
     printf("\n |                                                        |");
     printf("\n | Q1.                                                    |");
@@ -197,7 +199,7 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q1.                                                    |");
@@ -258,14 +260,14 @@ label1:
 }
 void l12(){
  system("cls");
-  int live=6;
+  int live=7;
     char ch='s',ch1='S',ch2='r',ch3='R',ch4='s',ch5='S',ch6='h',ch7='H',ch8='p',ch9='P';
 printf("\n Welcome to the level 2");
 label1:
     printf("\nA small hint for you to make your life easy.");
     printf("\nThe word below is a SpaceX's Launch Vehicle");
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,             score=%d         your life =%d       |",score,live);
+    printf("\n |    Hi,             score=%d         your life =%d        |",score,live);
     printf("\n | Level 2 starts                                         |");
     printf("\n |                                                        |");
     printf("\n | Q2.                                                    |");
@@ -284,7 +286,7 @@ label1:
     system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q2.                                                    |");
@@ -302,7 +304,7 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q2.                                                    |");
@@ -320,7 +322,7 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q2.                                                    |");
@@ -338,7 +340,7 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n | Level 2 is going to end soon..!!                       |");
     printf("\n |                                                        |");
     printf("\n | Q2.                                                    |");
@@ -354,7 +356,7 @@ label1:
         system("cls");
     score=score+20;
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q2.                                                    |");
@@ -449,7 +451,7 @@ label1:
     printf("\nA small hint for you to make your life easy.");
     printf("\nThe word below is biological process to make food by plants.");
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,             score=%d         your life =%d       |",score,live);
+    printf("\n |    Hi,             score=%d         your life =%d        |",score,live);
     printf("\n | Level 3 starts                                         |");
     printf("\n |                                                        |");
     printf("\n | Q3.                                                    |");
@@ -467,7 +469,7 @@ label1:
     system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q3.                                                    |");
@@ -485,7 +487,7 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q3.                                                    |");
@@ -503,7 +505,7 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q3.                                                    |");
@@ -521,7 +523,7 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q3.                                                    |");
@@ -539,7 +541,7 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n | Level 3 is going to end soon..!!                       |");
     printf("\n |                                                        |");
     printf("\n | Q3.                                                    |");
@@ -557,7 +559,7 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q3.                                                    |");
@@ -574,7 +576,7 @@ if(ch6=='s'||ch7=='S')
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q3.                                                    |");
@@ -695,7 +697,7 @@ label1:
     printf("\nA small hint for you to make your life easy.");
     printf("\nThe word below is a laboratory instrument.");
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,             score=%d         your life =%d       |",score,live);
+    printf("\n |    Hi,             score=%d         your life =%d        |",score,live);
     printf("\n | Level 4 starts                                         |");
     printf("\n |                                                        |");
     printf("\n | Q4.                                                    |");
@@ -712,7 +714,7 @@ label1:
         label2:
     system("cls");
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q4.                                                    |");
@@ -730,7 +732,7 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q4.                                                    |");
@@ -748,7 +750,7 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q4.                                                    |");
@@ -766,8 +768,8 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n |                                                        |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |    Level 4 is going to end soon..!!                    |");
     printf("\n |                                                        |");
     printf("\n | Q4.                                                    |");
     printf("\n |      M I C R O S C _ P E                               |");
@@ -783,8 +785,8 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q4.                                                    |");
     printf("\n |      M I C R O S C O P E                               |");
@@ -858,13 +860,14 @@ label1:
 void instructions(){
     system("cls");
     char ch='y',ch1='Y';
-printf("\n 1] In this Game we are going to guess the correct word");
-printf("\n 2] You have to guess the name by seeing the words and the number of blank spaces in the first try");
-printf("\n 3] If you loose the first try then you will get the hint and will remain with only with 2 chances");
-printf("\n 4] As your lives becomes 0 you loose the game and you have to restart with some new word");
-printf("\n 5] The same word won't repeat");
-printf("\n 6] As the level increases the difficulty level will also increase");
-sleep(30);
+printf("\n ********************************************** INSTRUCTIONS *******************************************");    
+printf("\n 1] In this Game you need to guess some words in order to complete the Question displayed on the screen.");
+printf("\n 2] There will be 3/5/7 missing words in each level respectively for guessing the right word.");
+printf("\n 3] A hint will be given at the start which won't repeat again and again.");
+printf("\n 4] If you enter a wrong alphabet your life as well as your score descreases.");
+printf("\n 5] If you enter the right alphabet your life remains same but your score increases.");
+printf("\n Press Y to Continue the Game.");
+scanf(" %c",&choice);
 }
 void levels1(){
     int level;
@@ -933,7 +936,7 @@ void l21(){
     printf("\nA small hint for you to make your life easy.");
     printf("\nThe word below is a country that produces largest coffee in the world.");
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,             score=%d         your life =%d       |",score,live);
+    printf("\n |    Hi,             score=%d         your life =%d        |",score,live);
     printf("\n | Level 1 starts                                         |");
     printf("\n |                                                        |");
     printf("\n | Q1.                                                    |");
@@ -952,7 +955,7 @@ void l21(){
     system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q1.                                                    |");
@@ -970,8 +973,8 @@ void l21(){
         system("cls");
 
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n |                                                        |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |   Level 1 is going to end soon..!!                     |");
     printf("\n |                                                        |");
     printf("\n | Q1.                                                    |");
     printf("\n |    B R A Z _ L                                         |");
@@ -987,8 +990,8 @@ void l21(){
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 is going to end soon..!!                       |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q1.                                                    |");
     printf("\n |    B R A Z I L                                         |");
@@ -1048,14 +1051,14 @@ void l21(){
 }
 void l22(){
 system("cls");
-  int live=6;
+  int live=7;
     char ch='a',ch1='A',ch2='r',ch3='R',ch4='e',ch5='E',ch6='n',ch7='N',ch8='e',ch9='E';
 printf("\n Welcome to the level 2");
 label1:
     printf("\nA small hint for you to make your life easy.");
     printf("\nThis word represents center of mass of a system, often used to describe celestial bodies and their motion.");
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,             score=%d         your life =%d       |",score,live);
+    printf("\n |    Hi,             score=%d         your life =%d        |",score,live);
     printf("\n | Level 2 starts                                         |");
     printf("\n |                                                        |");
     printf("\n | Q2.                                                    |");
@@ -1073,7 +1076,7 @@ label1:
     system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q2.                                                    |");
@@ -1091,7 +1094,7 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q2.                                                    |");
@@ -1109,7 +1112,7 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q2.                                                    |");
@@ -1127,8 +1130,8 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n |                                                        |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |    Level 2 is going to end soon..!!                    |");
     printf("\n |                                                        |");
     printf("\n | Q1.                                                    |");
     printf("\n |      B A R Y C E N T _ R                               |");
@@ -1144,8 +1147,8 @@ label1:
         system("cls");
     score=score+20;
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q2.                                                    |");
     printf("\n |      B A R Y C E N T E R                               |");
@@ -1232,14 +1235,14 @@ label1:
 }
 void l23(){
 system("cls");
-  int live=6;
+  int live=9;
     char ch='o',ch1='O',ch2='a',ch3='A',ch4='n',ch5='N',ch6='e',ch7='E',ch8='s',ch9='S',ch10='u',ch11='U',ch12='r',ch13='R';
 printf("\n Welcome to the level 2");
 label1:
     printf("\nA small hint for you to make your life easy.");
     printf("\nThis city has South Africa's largest gold and diamond mines.");
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,             score=%d         your life =%d       |",score,live);
+    printf("\n |    Hi,             score=%d         your life =%d        |",score,live);
     printf("\n | Level 3 starts                                         |");
     printf("\n |                                                        |");
     printf("\n | Q3.                                                    |");
@@ -1257,7 +1260,7 @@ label1:
     system("cls");
 
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q3.                                                    |");
@@ -1265,7 +1268,7 @@ label1:
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the second word you would expect to be:- ");
     scanf(" %c",&ch2);
     ch3=ch2;
     if(ch2=='a'||ch3=='A')
@@ -1275,7 +1278,7 @@ label1:
         system("cls");
 
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q3.                                                    |");
@@ -1283,7 +1286,7 @@ label1:
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the third word you would expect to be:- ");
     scanf(" %c",&ch4);
     ch5=ch4;
     if(ch4=='n'||ch5=='N')
@@ -1293,7 +1296,7 @@ label1:
         system("cls");
 
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q3.                                                    |");
@@ -1301,7 +1304,7 @@ label1:
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the fourth word you would expect to be:- ");
      scanf(" %c",&ch6);
     ch7=ch6;
     if(ch6=='e'||ch7=='E')
@@ -1311,7 +1314,7 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q3.                                                    |");
@@ -1319,7 +1322,7 @@ label1:
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the fifth word you would expect to be:- ");
     scanf(" %c",&ch8);
     ch9=ch8;
     if(ch8=='s'||ch9=='S')
@@ -1329,7 +1332,7 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q3.                                                    |");
@@ -1337,7 +1340,7 @@ label1:
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the sixth word you would expect to be:- ");
     scanf(" %c",&ch10);
     ch11=ch10;
     if(ch10=='u'||ch11=='U')
@@ -1347,15 +1350,15 @@ label1:
             label7:
         system("cls");
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n |                                                        |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |    Level 3 is going to end soon                        |");
     printf("\n |                                                        |");
     printf("\n | Q3.                                                    |");
     printf("\n |     J O H A N N E S B U _ G                            |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the seventh word you would expect to be:- ");
     scanf(" %c",&ch12);
 if(ch12=='r'||ch13=='R')
     {score=score+40;
@@ -1364,8 +1367,8 @@ if(ch12=='r'||ch13=='R')
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 3 is going to end soon                                                    |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q3.                                                    |");
     printf("\n |     J O H A N N E S B U R G                            |");
@@ -1475,15 +1478,15 @@ else{
 }
 void l24(){
 system("cls");
-  int live=6;
+  int live=9;
     char ch='a',ch1='A',ch2='e',ch3='E',ch4='i',ch5='I',ch6='o',ch7='O',ch8='h',ch9='H',ch10='g',ch11='G',ch12='e',ch13='E';
 printf("\n Welcome to the level 2");
 label1:
-    printf("A small hint for you to make your life easy.");
-    printf("This word is a virus that infects and replicates within bacteria and archaea.");
+    printf("\nA small hint for you to make your life easy.");
+    printf("\nThis word is a virus that infects and replicates within bacteria and archaea.");
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,             score=%d         your life =%d       |",score,live);
-    printf("\n | Level 2 starts                                         |");
+    printf("\n |    Hi,             score=%d         your life =%d        |",score,live);
+    printf("\n | Level 4 starts                                         |");
     printf("\n |                                                        |");
     printf("\n | Q4.                                                    |");
     printf("\n |     B _ C T _ R _ _P _ A _ _                           |");
@@ -1500,54 +1503,52 @@ label1:
     system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q4.                                                    |");
     printf("\n |    B A C T _ R _ _P _ A _ _                            |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the second word you would expect to be:- ");
     scanf(" %c",&ch2);
     ch3=ch2;
     if(ch2=='e'||ch3=='E')
     {score=score+10;
 
     Beep(1500,850);
-    Beep(1500,850);
         label3:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q4.                                                    |");
     printf("\n |     B A C T E R _ _P _ A _ _                           |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the third word you would expect to be:- ");
     scanf(" %c",&ch4);
     ch5=ch4;
     if(ch4=='i'||ch5=='I')
     {score=score+15;
-    Beep(1500,850);
-    Beep(1500,850);
+        Beep(1500,850);
         label4:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q4.                                                    |");
     printf("\n |      B A C T E R I _ P _ A _ _                         |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the fourth word you would expect to be:- ");
      scanf(" %c",&ch6);
     ch7=ch6;
     if(ch6=='o'||ch7=='O')
@@ -1558,15 +1559,15 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q4.                                                    |");
     printf("\n |     B A C T E R I O P _ A _ _                          |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the fifth word you would expect to be:- ");
     scanf(" %c",&ch8);
     ch9=ch8;
     if(ch8=='h'||ch9=='H')
@@ -1577,15 +1578,15 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
-    printf("\n | Q1.                                                    |");
+    printf("\n |                                                        |");
+    printf("\n | Q4.                                                    |");
     printf("\n |     B A C T E R I O P H A _ _                          |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the sixth word you would expect to be:- ");
     scanf(" %c",&ch10);
     ch11=ch10;
     if(ch10=='g'||ch11=='G')
@@ -1596,15 +1597,15 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |    Level 4 is going to end soon..!!                    |");
     printf("\n |                                                        |");
-    printf("\n | Q1.                                                    |");
+    printf("\n | Q4.                                                    |");
     printf("\n |     B A C T E R I O P H A G _                          |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the seventh word you would expect to be:- ");
     scanf(" %c",&ch12);
 if(ch12=='e'||ch13=='E')
     {score=score+40;
@@ -1614,10 +1615,10 @@ if(ch12=='e'||ch13=='E')
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
-    printf("\n | Q1.                                                    |");
+    printf("\n |                                                        |");
+    printf("\n | Q4.                                                    |");
     printf("\n |     B A C T E R I O P H A G E                          |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
@@ -1734,7 +1735,7 @@ label1:
     printf("\nA small hint for you to make your life easy.");
     printf("\nThe word below is a country often associated with waffles.");
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,             score=%d         your life =%d       |",score,live);
+    printf("\n |    Hi,             score=%d         your life =%d        |",score,live);
     printf("\n | Level 1 starts                                         |");
     printf("\n |                                                        |");
     printf("\n | Q1.                                                    |");
@@ -1753,45 +1754,43 @@ label1:
     system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q1.                                                    |");
     printf("\n |    B E L _ I _ M                                       |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the second word you would expect to be:- ");
     scanf(" %c",&ch2);
     ch3=ch2;
     if(ch2=='g'||ch3=='G')
     {score=score+10;
     Beep(1500,850);
-    Beep(1500,850);
         label3:
         system("cls");
 
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |    Level 1 is going to end soon..!!                    |");
     printf("\n |                                                        |");
     printf("\n | Q1.                                                    |");
     printf("\n |    B E L G I _ M                                       |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the third word you would expect to be:- ");
     scanf(" %c",&ch4);
     ch5=ch4;
     if(ch4=='u'||ch5=='U')
     {score=score+15;
     Beep(1500,850);
-    Beep(1500,850);
-        system("cls");
+    system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q1.                                                    |");
     printf("\n |    B E L G I U M                                       |");
@@ -1859,7 +1858,7 @@ label1:
     printf("\nA small hint for you to make your life easy.");
     printf("\nThe word below is a a group of stars.");
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,             score=%d         your life =%d       |",score,live);
+    printf("\n |    Hi,             score=%d         your life =%d        |",score,live);
     printf("\n | Level 2 starts                                         |");
     printf("\n |                                                        |");
     printf("\n | Q2.                                                    |");
@@ -1878,15 +1877,15 @@ label1:
     system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q2.                                                    |");
     printf("\n |     _ O N S _ E L L _ T _ O N                          |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the second word you would expect to be:- ");
     scanf("%c",&ch2);
     ch3=ch2;
     if(ch2=='s'||ch3=='S')
@@ -1897,15 +1896,15 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q2.                                                    |");
     printf("\n |     C O N S _ E L L _ T _ O N                          |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the third word you would expect to be:- ");
     scanf(" %c",&ch4);
     ch5=ch4;
     if(ch4=='t'||ch5=='T')
@@ -1916,15 +1915,15 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
-    printf("\n | Q1.                                                    |");
+    printf("\n |                                                        |");
+    printf("\n | Q2.                                                    |");
     printf("\n |     C O N S T E L L _ T _ O N                          |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the fourth word you would expect to be:- ");
      scanf(" %c",&ch6);
     ch7=ch6;
     if(ch6=='a'||ch7=='A')
@@ -1935,28 +1934,28 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |    Level 2 is going to end soon..!!                    |");
     printf("\n |                                                        |");
-    printf("\n | Q1.                                                    |");
+    printf("\n | Q2.                                                    |");
     printf("\n |     C O N S T E L L A T _ O N                          |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the fifth word you would expect to be:- ");
      scanf(" %c",&ch8);
     ch9=ch8;
     if(ch8=='i'||ch9=='I')
          {
-            Beep(1500,850);
+            
             Beep(1500,850);
         system("cls");
     score=score+20;
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
-    printf("\n | Q1.                                                    |");
+    printf("\n |                                                        |");
+    printf("\n | Q2.                                                    |");
     printf("\n |     C O N S T E L L A T I O N                          |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
@@ -2045,12 +2044,12 @@ system("cls");
 printf("\n Welcome to the level 2");
 label1:
     printf("\nA small hint for you to make your life easy.");
-    printf("\nThe word below is a structure that helps cells maintain their shape and internal organization.");
+    printf("\nThe word below is a city where Bibi ka Maqbara is located.");
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,             score=%d         your life =%d       |",score,live);
-    printf("\n | Level 2 starts                                         |");
+    printf("\n |    Hi,             score=%d         your life =%d        |",score,live);
+    printf("\n | Level 3 starts                                         |");
     printf("\n |                                                        |");
-    printf("\n | Q2.                                                    |");
+    printf("\n | Q3.                                                    |");
     printf("\n |     _ _ R A _ _ _ B _ _                                |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
@@ -2060,128 +2059,127 @@ label1:
     ch1=ch;
     if(ch=='a'|| ch1=='A')
     {score=score+5;
-    Beep(1500,850);
+    
     Beep(1500,850);
         label2:
     system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
-    printf("\n | Q2.                                                    |");
-    printf("\n |    A _ R A _ _ _ B _ _                             |");
+    printf("\n |                                                        |");
+    printf("\n | Q3.                                                    |");
+    printf("\n |    A _ R A _ _ _ B _ _                                 |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the second word you would expect to be:- ");
     scanf(" %c",&ch2);
     ch3=ch2;
     if(ch2=='u'|| ch3=='U')
     {score=score+10;
-    Beep(1500,850);
+   
     Beep(1500,850);
         label3:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
-    printf("\n | Q2.                                                    |");
+    printf("\n |                                                        |");
+    printf("\n | Q3.                                                    |");
     printf("\n |     A U R A _ _ _ B _ _                                |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the third word you would expect to be:- ");
     scanf(" %c",&ch4);
     ch5=ch4;
     if(ch4=='n'|| ch5=='N')
     {score=score+15;
-    Beep(1500,850);
+    
     Beep(1500,850);
         label4:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
-    printf("\n | Q1.                                                    |");
+    printf("\n |                                                        |");
+    printf("\n | Q3.                                                    |");
     printf("\n |     A U R A N _ _ B _ _                                |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the fourth word you would expect to be:- ");
      scanf(" %c",&ch6);
     ch7=ch6;
     if(ch6=='g' || ch7=='G')
         {score=score+20;
-        Beep(1500,850);
+        
         Beep(1500,850);
             label5:
         system("cls");
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
-    printf("\n | Q1.                                                    |");
-    printf("\n |     A U R A N G _ B _ _                            |");
+    printf("\n |                                                        |");
+    printf("\n | Q3.                                                    |");
+    printf("\n |     A U R A N G _ B _ _                                |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the fifth word you would expect to be:- ");
     scanf(" %c",&ch8);
     ch9=ch8;
     if(ch8=='a'|| ch9=='A')
     {score=score+25;
-    Beep(1500,850);
+    
     Beep(1500,850);
             label6:
         system("cls");
 
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
-    printf("\n | Q1.                                                    |");
-    printf("\n |     A U R A N G A B _ _                            |");
+    printf("\n |                                                        |");
+    printf("\n | Q3.                                                    |");
+    printf("\n |     A U R A N G A B _ _                                |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the sixth word you would expect to be:- ");
     scanf(" %c",&ch10);
     ch11=ch10;
     if(ch10=='a'||ch11=='A')
     {score=score+30;
-    Beep(1500,850);
+    
     Beep(1500,850);
             label7:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
-    printf("\n | Q1.                                                    |");
-    printf("\n |     A U R A N G A B A _                        |");
+    printf("\n |                                                        |");
+    printf("\n | Q3.                                                    |");
+    printf("\n |     A U R A N G A B A _                                |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the seventh word you would expect to be:- ");
     scanf(" %c",&ch12);
 if(ch12=='d'||ch13=='D')
     {score=score+40;
-    Beep(1500,850);
-    Beep(1500,850);
+        Beep(1500,850);
             label8:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
-    printf("\n | Q1.                                                    |");
+    printf("\n |                                                        |");
+    printf("\n | Q3.                                                    |");
     printf("\n |     A U R A N G A B A D                                |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
@@ -2297,12 +2295,12 @@ system("cls");
 printf("\n Welcome to the level 2");
 label1:
     printf("\nA small hint for you to make your life easy.");
-    printf("\nThe word below is a structure that helps cells maintain their shape and internal organization.");
+    printf("\nThe word below is a place where Pani Ki Chakki is present.");
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,             score=%d         your life =%d       |",score,live);
-    printf("\n | Level 2 starts                                         |");
+    printf("\n |    Hi,             score=%d         your life =%d        |",score,live);
+    printf("\n | Level 4 starts                                         |");
     printf("\n |                                                        |");
-    printf("\n | Q2.                                                    |");
+    printf("\n | Q4.                                                    |");
     printf("\n |     _ _ R A _ _ _ B _ _                                |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
@@ -2317,15 +2315,15 @@ label1:
     system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
-    printf("\n | Q2.                                                    |");
-    printf("\n |    A _ R A _ _ _ B _ _                             |");
+    printf("\n |                                                        |");
+    printf("\n | Q4.                                                    |");
+    printf("\n |    A _ R A _ _ _ B _ _                                 |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the second word you would expect to be:- ");
     scanf(" %c",&ch2);
     ch3=ch2;
     if(ch2=='u'|| ch3=='U')
@@ -2335,15 +2333,15 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
-    printf("\n | Q2.                                                    |");
+    printf("\n |                                                        |");
+    printf("\n | Q4.                                                    |");
     printf("\n |     A U R A _ _ _ B _ _                                |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the third word you would expect to be:- ");
     scanf(" %c",&ch4);
     ch5=ch4;
     if(ch4=='n'|| ch5=='N')
@@ -2353,15 +2351,15 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
-    printf("\n | Q1.                                                    |");
+    printf("\n |                                                        |");
+    printf("\n | Q4.                                                    |");
     printf("\n |     A U R A N _ _ B _ _                                |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the fourth word you would expect to be:- ");
      scanf(" %c",&ch6);
     ch7=ch6;
     if(ch6=='g' || ch7=='G')
@@ -2370,15 +2368,15 @@ label1:
             label5:
         system("cls");
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
-    printf("\n | Q1.                                                    |");
-    printf("\n |     A U R A N G _ B _ _                            |");
+    printf("\n |                                                        |");
+    printf("\n | Q4.                                                    |");
+    printf("\n |     A U R A N G _ B _ _                                |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the fifth word you would expect to be:- ");
     scanf(" %c",&ch8);
     ch9=ch8;
     if(ch8=='a'|| ch9=='A')
@@ -2388,15 +2386,15 @@ label1:
         system("cls");
 
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
-    printf("\n | Q1.                                                    |");
-    printf("\n |     A U R A N G A B _ _                            |");
+    printf("\n |                                                        |");
+    printf("\n | Q4.                                                    |");
+    printf("\n |     A U R A N G A B _ _                                |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the sixth word you would expect to be:- ");
     scanf(" %c",&ch10);
     ch11=ch10;
     if(ch10=='a'||ch11=='A')
@@ -2406,15 +2404,15 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |    Level 4 is going to end soon..!!                    |");
     printf("\n |                                                        |");
-    printf("\n | Q1.                                                    |");
-    printf("\n |     A U R A N G A B A _                        |");
+    printf("\n | Q4.                                                    |");
+    printf("\n |     A U R A N G A B A _                                |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the seventh word you would expect to be:- ");
     scanf(" %c",&ch12);
 if(ch12=='d'||ch13=='D')
     {score=score+40;
@@ -2423,10 +2421,10 @@ if(ch12=='d'||ch13=='D')
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
-    printf("\n | Q1.                                                    |");
+    printf("\n |                                                        |");
+    printf("\n | Q4.                                                    |");
     printf("\n |     A U R A N G A B A D                                |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
@@ -2541,13 +2539,13 @@ system("cls");
 printf("\n Welcome to the level 1");
 label1:
     printf("\nA small hint for you to make your life easy.");
-    printf("\nThe word below is a country surrounded by 2 seas.");
+    printf("\nThe word below is a country in Central Europe.");
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,             score=%d         your life =%d       |",score,live);
+    printf("\n |    Hi,             score=%d         your life =%d        |",score,live);
     printf("\n | Level 1 starts                                         |");
     printf("\n |                                                        |");
     printf("\n | Q1.                                                    |");
-    printf("\n |    _ U S _ R _ A                                           |");
+    printf("\n |    _ U S _ R _ A                                       |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
@@ -2561,11 +2559,11 @@ label1:
     system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d      |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q1.                                                    |");
-    printf("\n |    A U S _ R _ A                                           |");
+    printf("\n |    A U S _ R _ A                                       |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
@@ -2579,11 +2577,11 @@ label1:
         system("cls");
 
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d      |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |    Level 1 is going to end soon..!!                    |");
     printf("\n |                                                        |");
     printf("\n | Q1.                                                    |");
-    printf("\n |    A U S T R _ A                                           |");
+    printf("\n |    A U S T R _ A                                       |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
@@ -2596,8 +2594,8 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q1.                                                    |");
     printf("\n |    A U S T R I A                                       |");
@@ -2657,18 +2655,18 @@ label1:
 }
 void l42(){
 system("cls");
-  int live=5;
+  int live=7;
     char ch='h',ch1='H',ch2='y',ch3='Y',ch4='g',ch5='G',ch6='a',ch7='A',ch8='a',ch9='A';
 printf("\n Welcome to the level 2");
 label1:
-    printf("A small hint for you to make your life easy.");
-    printf("The word below is a SpaceX's Launch Vehicle");
+    printf("\nA small hint for you to make your life easy.");
+    printf("\nThe word below is a spiral galaxy that is surrounded by a cloud of smaller satellite galaxies which are often elliptical.");
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,             score=%d         your life =%d       |",score,live);
+    printf("\n |    Hi,             score=%d         your life =%d        |",score,live);
     printf("\n | Level 2 starts                                         |");
     printf("\n |                                                        |");
     printf("\n | Q2.                                                    |");
-    printf("\n |    _ _ P E R _ _ L _ X Y                                     |");
+    printf("\n |    _ _ P E R _ _ L _ X Y                               |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
@@ -2682,15 +2680,15 @@ label1:
     system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q2.                                                    |");
-    printf("\n |     H _ P E R _ _ L _ X Y                                    |");
+    printf("\n |     H _ P E R _ _ L _ X Y                              |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the second word you would expect to be:- ");
     scanf("%c",&ch2);
     ch3=ch2;
     if(ch2=='y'||ch3=='Y')
@@ -2700,15 +2698,15 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q2.                                                    |");
-    printf("\n |     H Y P E R _ _ L _ X Y                                  |");
+    printf("\n |     H Y P E R _ _ L _ X Y                              |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the third word you would expect to be:- ");
     scanf(" %c",&ch4);
     ch5=ch4;
     if(ch4=='g'||ch5=='G')
@@ -2718,15 +2716,15 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
-    printf("\n | Q1.                                                    |");
+    printf("\n |                                                        |");
+    printf("\n | Q2.                                                    |");
     printf("\n |      H Y P E R G _ L _ X Y                             |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the fourth word you would expect to be:- ");
      scanf(" %c",&ch6);
     ch7=ch6;
     if(ch6=='a'||ch7=='A')
@@ -2736,15 +2734,15 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |    Level 2 is going to end soon..!!                    |");
     printf("\n |                                                        |");
-    printf("\n | Q1.                                                    |");
+    printf("\n | Q2.                                                    |");
     printf("\n |      H Y P E R G A L _ X Y                             |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the fifth word you would expect to be:- ");
      scanf(" %c",&ch8);
     ch9=ch8;
     if(ch8=='a'||ch9=='A')
@@ -2753,8 +2751,8 @@ label1:
     score=score+20;
     Beep(1500,850);
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q2.                                                    |");
     printf("\n |      H Y P E R G A L A X Y                             |");
@@ -2841,15 +2839,15 @@ label1:
     }
 }
 void l43(){
-int live=7;
+int live=9;
 system("cls");
     char ch='h',ch1='H',ch2='i',ch3='I',ch4='a',ch5='A',ch6='d',ch7='D',ch8='p',ch9='P',ch10='h',ch11='H',ch12='a',ch13='A';
 printf("\n Welcome to the level 2");
 label1:
     printf("\nA small hint for you to make your life easy.");
-    printf("\nThis city has South Africa's largest gold and diamond mines.");
+    printf("\nThis city has a brand of cream cheese associated to it.");
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,             score=%d         your life =%d       |",score,live);
+    printf("\n |    Hi,             score=%d         your life =%d        |",score,live);
     printf("\n | Level 3 starts                                         |");
     printf("\n |                                                        |");
     printf("\n | Q3.                                                    |");
@@ -2867,15 +2865,15 @@ label1:
     system("cls");
 
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 3 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q3.                                                    |");
     printf("\n |    P H _ L _ _ E L _ _ I _                             |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the second word you would expect to be:- ");
     scanf(" %c",&ch2);
     ch3=ch2;
     if(ch2=='i'||ch3=='I')
@@ -2885,15 +2883,15 @@ label1:
         system("cls");
 
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 3 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q3.                                                    |");
     printf("\n |     P H I L _ _ E L _ _ I _                            |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the third word you would expect to be:- ");
     scanf(" %c",&ch4);
     ch5=ch4;
     if(ch4=='a'||ch5=='A')
@@ -2903,15 +2901,15 @@ label1:
         system("cls");
 
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 3 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q3.                                                    |");
     printf("\n |      P H I L A _ E L _ _ I _                           |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the fourth word you would expect to be:- ");
      scanf(" %c",&ch6);
     ch7=ch6;
     if(ch6=='d'||ch7=='D')
@@ -2921,15 +2919,15 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q3.                                                    |");
     printf("\n |     P H I L A D E L _ _ I _                            |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the fifth word you would expect to be:- ");
     scanf(" %c",&ch8);
     ch9=ch8;
     if(ch8=='p'||ch9=='P')
@@ -2939,15 +2937,15 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q3.                                                    |");
     printf("\n |     P H I L A D E L P _ I _                            |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the sixth word you would expect to be:- ");
     scanf(" %c",&ch10);
     ch11=ch10;
     if(ch10=='h'||ch11=='H')
@@ -2957,15 +2955,15 @@ label1:
             label7:
         system("cls");
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |    Level 3 is going to end soon..!!                    |");
     printf("\n |                                                        |");
     printf("\n | Q3.                                                    |");
     printf("\n |     P H I L A D E L P H I _                            |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the seventh word you would expect to be:- ");
     scanf(" %c",&ch12);
 if(ch12=='a'||ch13=='A')
     {score=score+40;
@@ -2974,8 +2972,8 @@ if(ch12=='a'||ch13=='A')
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 1 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q3.                                                    |");
     printf("\n |    P H I L A D E L P H I A                             |");
@@ -3084,19 +3082,19 @@ else{
     }
 }
 void l44(){
-int live=7;
+int live=9;
 system("cls");
     char ch='m',ch1='M',ch2='e',ch3='E',ch4='m',ch5='M',ch6='p',ch7='P',ch8='h',ch9='H',ch10='o',ch11='O',ch12='i',ch13='I';
 printf("\n Welcome to the level 2");
 label1:
     printf("\nA small hint for you to make your life easy.");
-    printf("\nThis city has South Africa's largest gold and diamond mines.");
+    printf("\nThis is a biological word refers to the change in the form and often the habits of an animal during its development after birth or hatching.");
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,             score=%d         your life =%d       |",score,live);
-    printf("\n | Level 3 starts                                         |");
+    printf("\n |    Hi,             score=%d         your life =%d        |",score,live);
+    printf("\n | Level 4 starts                                         |");
     printf("\n |                                                        |");
-    printf("\n | Q3.                                                    |");
-    printf("\n |     _ _ T A _ O R _ _ _ S _ S                            |");
+    printf("\n | Q4.                                                    |");
+    printf("\n |     _ _ T A _ O R _ _ _ S _ S                          |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
@@ -3110,15 +3108,15 @@ label1:
     system("cls");
 
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 3 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
     printf("\n |                                                        |");
-    printf("\n | Q3.                                                    |");
-    printf("\n |    M _ T A _ O R _ _ _ S _ S                             |");
+    printf("\n |                                                        |");
+    printf("\n | Q4.                                                    |");
+    printf("\n |    M _ T A _ O R _ _ _ S _ S                           |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the second word you would expect to be:- ");
     scanf(" %c",&ch2);
     ch3=ch2;
     if(ch2=='e'||ch3=='E')
@@ -3128,15 +3126,15 @@ label1:
         system("cls");
 
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 4 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q4.                                                    |");
-    printf("\n |     M E T A _ O R _ _ _ S _ S                            |");
+    printf("\n |     M E T A _ O R _ _ _ S _ S                          |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the third word you would expect to be:- ");
     scanf(" %c",&ch4);
     ch5=ch4;
     if(ch4=='m'||ch5=='M')
@@ -3146,15 +3144,15 @@ label1:
         system("cls");
 
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 4 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q4.                                                    |");
-    printf("\n |      M E T A M O R _ _ _ S _ S                           |");
+    printf("\n |      M E T A M O R _ _ _ S _ S                         |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the fourth word you would expect to be:- ");
      scanf(" %c",&ch6);
     ch7=ch6;
     if(ch6=='p'||ch7=='P')
@@ -3164,15 +3162,15 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 4 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q4.                                                    |");
     printf("\n |     M E T A M O R P _ _ S _ S                          |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the fifth word you would expect to be:- ");
     scanf(" %c",&ch8);
     ch9=ch8;
     if(ch8=='h'||ch9=='H')
@@ -3182,15 +3180,15 @@ label1:
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 4 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q4.                                                    |");
     printf("\n |     M E T A M O R P H _ S _ S                          |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the sixth word you would expect to be:- ");
     scanf(" %c",&ch10);
     ch11=ch10;
     if(ch10=='o'||ch11=='O')
@@ -3200,15 +3198,15 @@ label1:
             label7:
         system("cls");
     printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 4 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |    Level 4 is going to end soon..!!                    |");
     printf("\n |                                                        |");
     printf("\n | Q4.                                                    |");
-    printf("\n |     M E T A M O R P H O S _ S                            |");
+    printf("\n |     M E T A M O R P H O S _ S                          |");
     printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
-    printf("\n Enter the first word you would expect to be:- ");
+    printf("\n Enter the seventh word you would expect to be:- ");
     scanf(" %c",&ch12);
 if(ch12=='i'||ch13=='I')
     {score=score+40;
@@ -3217,8 +3215,8 @@ if(ch12=='i'||ch13=='I')
         system("cls");
 
      printf("\n ----------------------------------------------------------");
-    printf("\n |    Hi,              score=%d        your life =%d       |",score,live);
-    printf("\n | Level 4 starts                                         |");
+    printf("\n |    Hi,              score=%d        your life =%d        |",score,live);
+    printf("\n |                                                        |");
     printf("\n |                                                        |");
     printf("\n | Q4.                                                    |");
     printf("\n |    M E T A M O R P H O S I S                           |");
