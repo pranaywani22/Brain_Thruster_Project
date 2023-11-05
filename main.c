@@ -208,6 +208,10 @@ label1:
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
     printf("\n U Scored %d",score);
+
+    Beep(200,333);
+    Beep(400,333);
+    Beep(600,333);
     printf("\n Want to Quit? Y/n");
     scanf(" %c",&choice);
     if (choice == 'y'|| choice =='Y')
@@ -365,6 +369,10 @@ label1:
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
     printf("\n U Scored %d",score);
+
+    Beep(200,333);
+    Beep(400,333);
+    Beep(600,333);
     printf("\n Want to Quit? Y/n");
     scanf(" %c",&choice);
     if (choice == 'y'|| choice =='Y')
@@ -585,6 +593,10 @@ if(ch6=='s'||ch7=='S')
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
     printf("\n U Scored %d",score);
+
+    Beep(200,333);
+    Beep(400,333);
+    Beep(600,333);
     printf("\n Want to Quit? Y/n");
     scanf(" %c",&choice);
     if (choice == 'y'|| choice =='Y')
@@ -794,6 +806,10 @@ label1:
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
     printf("\n U Scored %d",score);
+
+    Beep(200,333);
+    Beep(400,333);
+    Beep(600,333);
     printf("\n Want to Quit? Y/n");
     scanf(" %c",&choice);
     if (choice == 'y'|| choice =='Y')
@@ -859,13 +875,17 @@ label1:
 }
 void instructions(){
     system("cls");
-    char ch='y',ch1='Y';
-printf("\n ********************************************** INSTRUCTIONS *******************************************");    
+printf("\n ********************************************** INSTRUCTIONS *******************************************");
 printf("\n 1] In this Game you need to guess some words in order to complete the Question displayed on the screen.");
+sleep(5);
 printf("\n 2] There will be 3/5/7 missing words in each level respectively for guessing the right word.");
+sleep(5);
 printf("\n 3] A hint will be given at the start which won't repeat again and again.");
+sleep(5);
 printf("\n 4] If you enter a wrong alphabet your life as well as your score descreases.");
+sleep(5);
 printf("\n 5] If you enter the right alphabet your life remains same but your score increases.");
+sleep(5);
 printf("\n Press Y to Continue the Game.");
 scanf(" %c",&choice);
 }
@@ -926,6 +946,8 @@ printf("\n to be updated soon");
 void endgame(){
     system("cls");
 printf("Thanks a lot for playing the game..!!!");
+Beep(200,333);
+Beep(400,666);
 }
 void l21(){
   system("cls");
@@ -999,6 +1021,9 @@ void l21(){
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
     printf("\n U Scored %d",score);
+    Beep(200,333);
+    Beep(400,333);
+    Beep(600,333);
     printf("\n Want to Quit? Y/n");
     scanf(" %c",&choice);
     if (choice == 'y'|| choice =='Y')
@@ -1156,6 +1181,10 @@ label1:
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
     printf("\n U Scored %d",score);
+
+    Beep(200,333);
+    Beep(400,333);
+    Beep(600,333);
     printf("\n Want to Quit? Y/n");
     scanf(" %c",&choice);
     if (choice == 'y'|| choice =='Y')
@@ -1376,6 +1405,10 @@ if(ch12=='r'||ch13=='R')
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
     printf("\n U Scored %d",score);
+
+    Beep(200,333);
+    Beep(400,333);
+    Beep(600,333);
     printf("\n Want to Quit? Y/n");
     scanf(" %c",&choice);
     if (choice == 'y'|| choice =='Y')
@@ -1624,6 +1657,10 @@ if(ch12=='e'||ch13=='E')
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
     printf("\n U Scored %d",score);
+
+    Beep(200,333);
+    Beep(400,333);
+    Beep(600,333);
     printf("\n Want to Quit? Y/n");
     scanf(" %c",&choice);
     if (choice == 'y'|| choice =='Y')
@@ -1798,6 +1835,10 @@ label1:
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
     printf("\n U Scored %d",score);
+
+    Beep(200,333);
+    Beep(400,333);
+    Beep(600,333);
     printf("\n Want to Quit? Y/n");
     scanf(" %c",&choice);
     if (choice == 'y'|| choice =='Y')
@@ -1947,7 +1988,7 @@ label1:
     ch9=ch8;
     if(ch8=='i'||ch9=='I')
          {
-            
+
             Beep(1500,850);
         system("cls");
     score=score+20;
@@ -1961,6 +2002,10 @@ label1:
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
     printf("\n U Scored %d",score);
+
+    Beep(200,333);
+    Beep(400,333);
+    Beep(600,333);
     printf("\n Want to Quit? Y/n");
     scanf(" %c",&choice);
     if (choice == 'y'|| choice =='Y')
@@ -2059,7 +2104,7 @@ label1:
     ch1=ch;
     if(ch=='a'|| ch1=='A')
     {score=score+5;
-    
+
     Beep(1500,850);
         label2:
     system("cls");
@@ -2078,7 +2123,7 @@ label1:
     ch3=ch2;
     if(ch2=='u'|| ch3=='U')
     {score=score+10;
-   
+
     Beep(1500,850);
         label3:
         system("cls");
@@ -2097,7 +2142,7 @@ label1:
     ch5=ch4;
     if(ch4=='n'|| ch5=='N')
     {score=score+15;
-    
+
     Beep(1500,850);
         label4:
         system("cls");
@@ -2116,7 +2161,7 @@ label1:
     ch7=ch6;
     if(ch6=='g' || ch7=='G')
         {score=score+20;
-        
+
         Beep(1500,850);
             label5:
         system("cls");
@@ -2134,7 +2179,7 @@ label1:
     ch9=ch8;
     if(ch8=='a'|| ch9=='A')
     {score=score+25;
-    
+
     Beep(1500,850);
             label6:
         system("cls");
@@ -2153,7 +2198,7 @@ label1:
     ch11=ch10;
     if(ch10=='a'||ch11=='A')
     {score=score+30;
-    
+
     Beep(1500,850);
             label7:
         system("cls");
@@ -2185,6 +2230,10 @@ if(ch12=='d'||ch13=='D')
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
     printf("\n U Scored %d",score);
+
+    Beep(200,333);
+    Beep(400,333);
+    Beep(600,333);
     printf("\n Want to Quit? Y/n");
     scanf(" %c",&choice);
     if (choice == 'y'|| choice =='Y')
@@ -2430,6 +2479,10 @@ if(ch12=='d'||ch13=='D')
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
     printf("\n U Scored %d",score);
+
+    Beep(200,333);
+    Beep(400,333);
+    Beep(600,333);
     printf("\n Want to Quit? Y/n");
     scanf(" %c",&choice);
     if (choice == 'y'|| choice =='Y')
@@ -2604,6 +2657,10 @@ label1:
     printf("\n ----------------------------------------------------------");
     printf("\n U Scored %d",score);
     printf("\n Want to Quit? Y/n");
+
+    Beep(200,333);
+    Beep(400,333);
+    Beep(600,333);
     scanf(" %c",&choice);
     if (choice == 'y'|| choice =='Y')
        endgame();
@@ -2760,6 +2817,10 @@ label1:
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
     printf("\n U Scored %d",score);
+
+    Beep(200,333);
+    Beep(400,333);
+    Beep(600,333);
     printf("\n Want to Quit? Y/n");
     scanf(" %c",&choice);
     if (choice == 'y'|| choice =='Y')
@@ -2981,6 +3042,10 @@ if(ch12=='a'||ch13=='A')
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
     printf("\n U Scored %d",score);
+
+    Beep(200,333);
+    Beep(400,333);
+    Beep(600,333);
     printf("\n Want to Quit? Y/n");
     scanf(" %c",&choice);
     if (choice == 'y'|| choice =='Y')
@@ -3224,6 +3289,10 @@ if(ch12=='i'||ch13=='I')
     printf("\n |                                                        |");
     printf("\n ----------------------------------------------------------");
     printf("\n U Scored %d",score);
+
+    Beep(200,333);
+    Beep(400,333);
+    Beep(600,333);
     printf("\n Want to Quit? Y/n");
     scanf(" %c",&choice);
     if (choice == 'y'|| choice =='Y')
@@ -3325,6 +3394,7 @@ else{
     }
 }
 void levels2(){
+    system("cls");
   int level;
 printf("                                                     %d",score);
 printf("\n Level 01 \t Level 02 \t Level 03 \n");
@@ -3376,6 +3446,7 @@ default:
 }
 }
 void levels3(){
+    system("cls");
   int level;
 printf("                                                     %d",score);
 printf("\n Level 01 \t Level 02 \t Level 03 \n");
@@ -3427,6 +3498,7 @@ default:
 }
 }
 void levels4(){
+    system("cls");
 int level;
 printf("                                                     %d",score);
 printf("\n Level 01 \t Level 02 \t Level 03 \n");
@@ -3506,7 +3578,7 @@ printf("\nL      O   O  AAAAA  D   D    I    N  N  N  G GGG                  ");
 printf("\nL      O   O  A   A  D   D    I    N  N  N  G   G  ::::  ::::  ::::");
 printf("\nL      O   O  A   A  D  D     I    N   N N  G   G  ::::  ::::  ::::");
 printf("\nLLLLL   OOO   A   A  DDD    IIIII  N    NN  GGGGG  ::::  ::::  ::::");
-sleep(3);
+sleep(1);
  }
 void groupname(){
      system("cls");
@@ -3544,5 +3616,6 @@ void lose(){
 printf("\n|-------------|");
 printf("\n|   YOU LOSE  |");
 printf("\n|-------------|");
-sleep(2);
+Beep(473,5000);
+
 }
